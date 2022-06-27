@@ -1,0 +1,38 @@
+# Nmap 7.92 scan initiated Thu Feb 17 04:29:12 2022 as: nmap -A -p 80 -oN agressive_scan 192.168.1.75,60
+Nmap scan report for 192.168.1.60
+Host is up (0.0023s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Microsoft IIS httpd 10.0
+|_http-title: IIS Windows
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge
+Running: Oracle Virtualbox
+OS CPE: cpe:/o:oracle:virtualbox
+OS details: Oracle Virtualbox
+Network Distance: 2 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.73 ms 10.0.2.2
+2   0.57 ms 192.168.1.60
+
+Nmap scan report for 192.168.1.75
+Host is up (0.0017s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.60
+2   0.90 ms 192.168.1.75
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Feb 17 04:29:41 2022 -- 2 IP addresses (2 hosts up) scanned in 29.59 seconds

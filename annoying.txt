@@ -1,0 +1,131 @@
+Starting Nmap 7.92 ( https://nmap.org ) at 2022-02-17 06:04 EST
+Nmap scan report for 192.168.1.51
+Host is up (0.0032s latency).
+
+PORT   STATE  SERVICE
+80/tcp closed http
+MAC Address: CC:B1:1A:64:21:D7 (Samsung Electronics)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.1.52
+Host is up (0.0034s latency).
+
+PORT   STATE  SERVICE
+80/tcp closed http
+MAC Address: CC:B1:1A:64:21:96 (Samsung Electronics)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.1.54
+Host is up (0.0015s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: 8C:AE:89:04:01:BD (Y-cam Solutions)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+OS details: Linux 2.6.9 - 2.6.18
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.1.55
+Host is up (0.18s latency).
+
+PORT   STATE    SERVICE
+80/tcp filtered http
+MAC Address: 98:2C:BC:AB:09:7D (Intel Corporate)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.1.58
+Host is up (0.0013s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: 08:00:27:69:88:4B (Oracle VirtualBox virtual NIC)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.6
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.1.61
+Host is up (0.00086s latency).
+
+PORT   STATE  SERVICE
+80/tcp closed http
+MAC Address: 84:8F:69:05:8D:4F (Dell)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.1.63
+Host is up (0.31s latency).
+
+PORT   STATE  SERVICE
+80/tcp closed http
+MAC Address: 7C:D9:5C:AC:10:7A (Google)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.1.65
+Host is up (0.0014s latency).
+
+PORT   STATE    SERVICE
+80/tcp filtered http
+MAC Address: 1C:1B:0D:BA:1B:1B (Giga-byte Technology)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.1.67
+Host is up (0.022s latency).
+
+PORT   STATE    SERVICE
+80/tcp filtered http
+MAC Address: E8:4E:06:94:6A:40 (Edup International (hk))
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.1.68
+Host is up (0.00095s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: 8C:AE:89:04:01:BC (Y-cam Solutions)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+OS details: Linux 2.6.9 - 2.6.18
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.1.69
+Host is up (0.11s latency).
+
+PORT   STATE    SERVICE
+80/tcp filtered http
+MAC Address: D8:F8:83:0B:1A:C6 (Intel Corporate)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.1.70
+Host is up (0.11s latency).
+
+PORT   STATE  SERVICE
+80/tcp closed http
+MAC Address: E8:4E:06:94:6A:40 (Edup International (hk))
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.1.62
+Host is up (0.00013s latency).
+
+PORT   STATE  SERVICE
+80/tcp closed http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 0 hops
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 21 IP addresses (13 hosts up) scanned in 41.00 seconds

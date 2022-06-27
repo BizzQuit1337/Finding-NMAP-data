@@ -1,0 +1,4252 @@
+Starting Nmap 7.92 ( https://nmap.org ) at 2022-02-17 04:31 EST
+Nmap scan report for 192.168.1.0
+Host is up (0.0011s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.57 ms 10.0.2.2
+2   0.80 ms 192.168.1.0
+
+Nmap scan report for 192.168.1.1
+Host is up (0.0027s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT        ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2007.37 ms 192.168.1.1
+
+Nmap scan report for 192.168.1.2
+Host is up (0.0063s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   1.46 ms 192.168.1.2
+
+Nmap scan report for 192.168.1.3
+Host is up (0.0059s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.73 ms 192.168.1.3
+
+Nmap scan report for 192.168.1.4
+Host is up (0.0055s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.32 ms 192.168.1.4
+
+Nmap scan report for 192.168.1.5
+Host is up (0.0054s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.36 ms 192.168.1.5
+
+Nmap scan report for 192.168.1.6
+Host is up (0.0054s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.58 ms 192.168.1.6
+
+Nmap scan report for 192.168.1.7
+Host is up (0.019s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.6 ((CentOS) PHP/7.3.9)
+|_http-server-header: Apache/2.4.6 (CentOS) PHP/7.3.9
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-title: Apache HTTP Server Test Page powered by CentOS
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (95%), QEMU (90%), Bay Networks embedded (86%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450
+Aggressive OS guesses: Oracle Virtualbox (95%), QEMU user mode network gateway (90%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (86%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2.53 ms 192.168.1.7
+
+Nmap scan report for 192.168.1.8
+Host is up (0.0071s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT      ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   15.60 ms 192.168.1.8
+
+Nmap scan report for 192.168.1.9
+Host is up (0.0052s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.76 ms 192.168.1.9
+
+Nmap scan report for 192.168.1.10
+Host is up (0.0055s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.61 ms 192.168.1.10
+
+Nmap scan report for 192.168.1.11
+Host is up (0.0014s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.55 ms 192.168.1.11
+
+Nmap scan report for 192.168.1.12
+Host is up (0.0014s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.61 ms 192.168.1.12
+
+Nmap scan report for 192.168.1.13
+Host is up (0.0053s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.55 ms 192.168.1.13
+
+Nmap scan report for 192.168.1.14
+Host is up (0.0053s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.79 ms 192.168.1.14
+
+Nmap scan report for 192.168.1.15
+Host is up (0.0049s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   1.05 ms 192.168.1.15
+
+Nmap scan report for 192.168.1.16
+Host is up (0.0048s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.66 ms 192.168.1.16
+
+Nmap scan report for 192.168.1.17
+Host is up (0.0035s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.59 ms 192.168.1.17
+
+Nmap scan report for 192.168.1.18
+Host is up (0.0034s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.58 ms 192.168.1.18
+
+Nmap scan report for 192.168.1.19
+Host is up (0.0018s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.33 ms 192.168.1.19
+
+Nmap scan report for 192.168.1.20
+Host is up (0.0016s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.27 ms 192.168.1.20
+
+Nmap scan report for 192.168.1.21
+Host is up (0.0019s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.24 ms 192.168.1.21
+
+Nmap scan report for 192.168.1.22
+Host is up (0.019s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 302 Moved Temporarily
+|     Connection: close
+|     Location: http://192.168.1.203:8880/guest/s/default/?ap=f0:9f:c2:20:33:f6&ec=9wUyPGH7DpGJgAsO0uXSQphZ5tGt6W152m_1GHwRarPZM-bMLL8qfU-HSRjB3_3OYEHGZxy8-VQsNqDweCqPJidBrI8z17oc34-1yzO85fhnXGU_PLAM8tuR42ICbQYQcV-gEq5g3jmCFHawJi8hb4QFQKIue3Xx4EOP82kCGupP889DINXHPg_AheiDr8jE
+|   GetRequest, HTTPOptions, RTSPRequest: 
+|     HTTP/1.1 302 Moved Temporarily
+|     Connection: close
+|     Location: http://192.168.1.203:8880/guest/s/default/?ap=f0:9f:c2:20:33:f6&ec=9wUyPGH7DpGJgAsO0uXSQphZ5tGt6W152m_1GHwRarPZM-bMLL8qfU-HSRjB3_3OYEHGZxy8-VQsNqDweCqPJidBrI8z17oc34-1yzO85fhnXGU_PLAM8tuR42ICbQYQn2a-vKHjrdUhgtPVwW3_cg
+|   SIPOptions: 
+|     HTTP/1.1 302 Moved Temporarily
+|     Connection: close
+|_    Location: http://192.168.1.203:8880/guest/s/default/?ap=f0:9f:c2:20:33:f6&ec=9wUyPGH7DpGJgAsO0uXSQphZ5tGt6W152m_1GHwRarPZM-bMLL8qfU-HSRjB3_3OYEHGZxy8-VQsNqDweCqPJidBrI8z17oc34-1yzO85fhnXGU_PLAM8tuR42ICbQYQ5BvKBbkl1G9mbURUkj6rqA
+|_http-title: Did not follow redirect to http://192.168.1.203:8880/guest/s/default/?ap=f0:9f:c2:20:33:f6&ec=9wUyPGH7DpGJgAsO0uXSQphZ5tGt6W152m_1GHwRarPZM-bMLL8qfU-HSRjB3_3OYEHGZxy8-VQsNqDweCqPJidBrI8z17oc34-1yzO85fh_xXJCXN1UHlw91OjSfV4Sb9Vot3Enp2zs8lZC9F_MMw
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.92%I=7%D=2/17%Time=620E15FB%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,11A,"HTTP/1\.1\x20302\x20Moved\x20Temporarily\r\nConnection:\x20
+SF:close\r\nLocation:\x20http://192\.168\.1\.203:8880/guest/s/default/\?ap
+SF:=f0:9f:c2:20:33:f6&ec=9wUyPGH7DpGJgAsO0uXSQphZ5tGt6W152m_1GHwRarPZM-bML
+SF:L8qfU-HSRjB3_3OYEHGZxy8-VQsNqDweCqPJidBrI8z17oc34-1yzO85fhnXGU_PLAM8tuR
+SF:42ICbQYQn2a-vKHjrdUhgtPVwW3_cg\r\n\r\n")%r(HTTPOptions,11A,"HTTP/1\.1\x
+SF:20302\x20Moved\x20Temporarily\r\nConnection:\x20close\r\nLocation:\x20h
+SF:ttp://192\.168\.1\.203:8880/guest/s/default/\?ap=f0:9f:c2:20:33:f6&ec=9
+SF:wUyPGH7DpGJgAsO0uXSQphZ5tGt6W152m_1GHwRarPZM-bMLL8qfU-HSRjB3_3OYEHGZxy8
+SF:-VQsNqDweCqPJidBrI8z17oc34-1yzO85fhnXGU_PLAM8tuR42ICbQYQn2a-vKHjrdUhgtP
+SF:VwW3_cg\r\n\r\n")%r(RTSPRequest,11A,"HTTP/1\.1\x20302\x20Moved\x20Tempo
+SF:rarily\r\nConnection:\x20close\r\nLocation:\x20http://192\.168\.1\.203:
+SF:8880/guest/s/default/\?ap=f0:9f:c2:20:33:f6&ec=9wUyPGH7DpGJgAsO0uXSQphZ
+SF:5tGt6W152m_1GHwRarPZM-bMLL8qfU-HSRjB3_3OYEHGZxy8-VQsNqDweCqPJidBrI8z17o
+SF:c34-1yzO85fhnXGU_PLAM8tuR42ICbQYQn2a-vKHjrdUhgtPVwW3_cg\r\n\r\n")%r(Fou
+SF:rOhFourRequest,144,"HTTP/1\.1\x20302\x20Moved\x20Temporarily\r\nConnect
+SF:ion:\x20close\r\nLocation:\x20http://192\.168\.1\.203:8880/guest/s/defa
+SF:ult/\?ap=f0:9f:c2:20:33:f6&ec=9wUyPGH7DpGJgAsO0uXSQphZ5tGt6W152m_1GHwRa
+SF:rPZM-bMLL8qfU-HSRjB3_3OYEHGZxy8-VQsNqDweCqPJidBrI8z17oc34-1yzO85fhnXGU_
+SF:PLAM8tuR42ICbQYQcV-gEq5g3jmCFHawJi8hb4QFQKIue3Xx4EOP82kCGupP889DINXHPg_
+SF:AheiDr8jE\r\n\r\n")%r(SIPOptions,11A,"HTTP/1\.1\x20302\x20Moved\x20Temp
+SF:orarily\r\nConnection:\x20close\r\nLocation:\x20http://192\.168\.1\.203
+SF::8880/guest/s/default/\?ap=f0:9f:c2:20:33:f6&ec=9wUyPGH7DpGJgAsO0uXSQph
+SF:Z5tGt6W152m_1GHwRarPZM-bMLL8qfU-HSRjB3_3OYEHGZxy8-VQsNqDweCqPJidBrI8z17
+SF:oc34-1yzO85fhnXGU_PLAM8tuR42ICbQYQ5BvKBbkl1G9mbURUkj6rqA\r\n\r\n");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (94%), QEMU (93%), Bay Networks embedded (87%), Allied Telesyn embedded (86%), Cisco embedded (85%), Linux (85%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/h:cisco:css_11501 cpe:/o:linux:linux_kernel:2.6.18
+Aggressive OS guesses: Oracle Virtualbox (94%), QEMU user mode network gateway (93%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (87%), Allied Telesyn AT-9006SX/SC switch (86%), Cisco CSS 11501 switch (85%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   1.07 ms 192.168.1.22
+
+Nmap scan report for 192.168.1.23
+Host is up (0.019s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 302 Moved Temporarily
+|     Connection: close
+|     Location: http://192.168.1.203:8880/guest/s/default/?ap=f0:9f:c2:20:2f:b6&ec=Dpg1oOIf3k6G9VIaXpZv9vhDlHGuzWrTbzgtf2ghegqWKbKxRQpUR9wPHeQaxFnxQCDCTOuCj3ZraH_ffdGpNwSSFwgXEQjIXP-dIZXfasNDM4l1cR7gybEikj3mNzwxegdigNTRJAxflV9kbA2KqhRFPuJrb-G21gEidVHz-2ZyLKmuXmnXGonuS1coQ9BC
+|   GetRequest, HTTPOptions, RTSPRequest: 
+|     HTTP/1.1 302 Moved Temporarily
+|     Connection: close
+|     Location: http://192.168.1.203:8880/guest/s/default/?ap=f0:9f:c2:20:2f:b6&ec=Dpg1oOIf3k6G9VIaXpZv9vhDlHGuzWrTbzgtf2ghegqWKbKxRQpUR9wPHeQaxFnxQCDCTOuCj3ZraH_ffdGpNwSSFwgXEQjIXP-dIZXfasNDM4l1cR7gybEikj3mNzwx0KVX1v62-H6IUv5F4kdSoA
+|   SIPOptions: 
+|     HTTP/1.1 302 Moved Temporarily
+|     Connection: close
+|_    Location: http://192.168.1.203:8880/guest/s/default/?ap=f0:9f:c2:20:2f:b6&ec=Dpg1oOIf3k6G9VIaXpZv9vhDlHGuzWrTbzgtf2ghegqWKbKxRQpUR9wPHeQaxFnxQCDCTOuCj3ZraH_ffdGpNwSSFwgXEQjIXP-dIZXfasNDM4l1cR7gybEikj3mNzwxc-4mXzhHd80TNHF8C6ZFyQ
+|_http-title: Did not follow redirect to http://192.168.1.203:8880/guest/s/default/?ap=f0:9f:c2:20:2f:b6&ec=Dpg1oOIf3k6G9VIaXpZv9vhDlHGuzWrTbzgtf2ghegqWKbKxRQpUR9wPHeQaxFnxQCDCTOuCj3ZraH_ffdGpNwSSFwgXEQjIXP-dIZXfasPnzY4wnn11GdtlFOZRj08heU9Clno3MmwL5bEY0LGp4A
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.92%I=7%D=2/17%Time=620E15FB%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,11A,"HTTP/1\.1\x20302\x20Moved\x20Temporarily\r\nConnection:\x20
+SF:close\r\nLocation:\x20http://192\.168\.1\.203:8880/guest/s/default/\?ap
+SF:=f0:9f:c2:20:2f:b6&ec=Dpg1oOIf3k6G9VIaXpZv9vhDlHGuzWrTbzgtf2ghegqWKbKxR
+SF:QpUR9wPHeQaxFnxQCDCTOuCj3ZraH_ffdGpNwSSFwgXEQjIXP-dIZXfasNDM4l1cR7gybEi
+SF:kj3mNzwx0KVX1v62-H6IUv5F4kdSoA\r\n\r\n")%r(HTTPOptions,11A,"HTTP/1\.1\x
+SF:20302\x20Moved\x20Temporarily\r\nConnection:\x20close\r\nLocation:\x20h
+SF:ttp://192\.168\.1\.203:8880/guest/s/default/\?ap=f0:9f:c2:20:2f:b6&ec=D
+SF:pg1oOIf3k6G9VIaXpZv9vhDlHGuzWrTbzgtf2ghegqWKbKxRQpUR9wPHeQaxFnxQCDCTOuC
+SF:j3ZraH_ffdGpNwSSFwgXEQjIXP-dIZXfasNDM4l1cR7gybEikj3mNzwx0KVX1v62-H6IUv5
+SF:F4kdSoA\r\n\r\n")%r(RTSPRequest,11A,"HTTP/1\.1\x20302\x20Moved\x20Tempo
+SF:rarily\r\nConnection:\x20close\r\nLocation:\x20http://192\.168\.1\.203:
+SF:8880/guest/s/default/\?ap=f0:9f:c2:20:2f:b6&ec=Dpg1oOIf3k6G9VIaXpZv9vhD
+SF:lHGuzWrTbzgtf2ghegqWKbKxRQpUR9wPHeQaxFnxQCDCTOuCj3ZraH_ffdGpNwSSFwgXEQj
+SF:IXP-dIZXfasNDM4l1cR7gybEikj3mNzwx0KVX1v62-H6IUv5F4kdSoA\r\n\r\n")%r(Fou
+SF:rOhFourRequest,144,"HTTP/1\.1\x20302\x20Moved\x20Temporarily\r\nConnect
+SF:ion:\x20close\r\nLocation:\x20http://192\.168\.1\.203:8880/guest/s/defa
+SF:ult/\?ap=f0:9f:c2:20:2f:b6&ec=Dpg1oOIf3k6G9VIaXpZv9vhDlHGuzWrTbzgtf2ghe
+SF:gqWKbKxRQpUR9wPHeQaxFnxQCDCTOuCj3ZraH_ffdGpNwSSFwgXEQjIXP-dIZXfasNDM4l1
+SF:cR7gybEikj3mNzwxegdigNTRJAxflV9kbA2KqhRFPuJrb-G21gEidVHz-2ZyLKmuXmnXGon
+SF:uS1coQ9BC\r\n\r\n")%r(SIPOptions,11A,"HTTP/1\.1\x20302\x20Moved\x20Temp
+SF:orarily\r\nConnection:\x20close\r\nLocation:\x20http://192\.168\.1\.203
+SF::8880/guest/s/default/\?ap=f0:9f:c2:20:2f:b6&ec=Dpg1oOIf3k6G9VIaXpZv9vh
+SF:DlHGuzWrTbzgtf2ghegqWKbKxRQpUR9wPHeQaxFnxQCDCTOuCj3ZraH_ffdGpNwSSFwgXEQ
+SF:jIXP-dIZXfasNDM4l1cR7gybEikj3mNzwxc-4mXzhHd80TNHF8C6ZFyQ\r\n\r\n");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (94%), QEMU (93%), Bay Networks embedded (87%), Allied Telesyn embedded (86%), Cisco embedded (85%), Linux (85%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/h:cisco:css_11501 cpe:/o:linux:linux_kernel:2.6.18
+Aggressive OS guesses: Oracle Virtualbox (94%), QEMU user mode network gateway (93%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (87%), Allied Telesyn AT-9006SX/SC switch (86%), Cisco CSS 11501 switch (85%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   1.29 ms 192.168.1.23
+
+Nmap scan report for 192.168.1.24
+Host is up (0.018s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http
+|_http-title: Did not follow redirect to http://192.168.1.203:8880/guest/s/default/?ap=f0:9f:c2:20:2e:d7&ec=zBoVihUigpEaiP1D6hyAVnGopQcm0OEB6aAqE1wtCUNFZJId1nEnKu7H7T12Ku30QRrhJ6ccdL8lhM02xo0I2HeM6ydx9fbY6Hd5XkWlCRWlSQqfAvNVl-_CVa6oYbywByGeorPubiA1yBJvHkJJCw
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 302 Moved Temporarily
+|     Connection: close
+|     Location: http://192.168.1.203:8880/guest/s/default/?ap=f0:9f:c2:20:2e:d7&ec=zBoVihUigpEaiP1D6hyAVnGopQcm0OEB6aAqE1wtCUNFZJId1nEnKu7H7T12Ku30QRrhJ6ccdL8lhM02xo0I2HeM6ydx9fbY6Hd5XkWlCRWCVtS0UlAwV2OyHhFNiiFHyF8Mcn1-J4FqNgcyAeZTo6egQSJ2C02_ZZJJCuwFVodCxvHPTCioh-ZXqyGd1wkj
+|   GetRequest, HTTPOptions, RTSPRequest: 
+|     HTTP/1.1 302 Moved Temporarily
+|     Connection: close
+|     Location: http://192.168.1.203:8880/guest/s/default/?ap=f0:9f:c2:20:2e:d7&ec=zBoVihUigpEaiP1D6hyAVnGopQcm0OEB6aAqE1wtCUNFZJId1nEnKu7H7T12Ku30QRrhJ6ccdL8lhM02xo0I2HeM6ydx9fbY6Hd5XkWlCRWCVtS0UlAwV2OyHhFNiiFHDm45VMfhl3V3xZEBaY8C1g
+|   SIPOptions: 
+|     HTTP/1.1 302 Moved Temporarily
+|     Connection: close
+|_    Location: http://192.168.1.203:8880/guest/s/default/?ap=f0:9f:c2:20:2e:d7&ec=zBoVihUigpEaiP1D6hyAVnGopQcm0OEB6aAqE1wtCUNFZJId1nEnKu7H7T12Ku30QRrhJ6ccdL8lhM02xo0I2HeM6ydx9fbY6Hd5XkWlCRWCVtS0UlAwV2OyHhFNiiFHMgwawBqd8m72WxaMWnh2Rw
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.92%I=7%D=2/17%Time=620E15FB%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,11A,"HTTP/1\.1\x20302\x20Moved\x20Temporarily\r\nConnection:\x20
+SF:close\r\nLocation:\x20http://192\.168\.1\.203:8880/guest/s/default/\?ap
+SF:=f0:9f:c2:20:2e:d7&ec=zBoVihUigpEaiP1D6hyAVnGopQcm0OEB6aAqE1wtCUNFZJId1
+SF:nEnKu7H7T12Ku30QRrhJ6ccdL8lhM02xo0I2HeM6ydx9fbY6Hd5XkWlCRWCVtS0UlAwV2Oy
+SF:HhFNiiFHDm45VMfhl3V3xZEBaY8C1g\r\n\r\n")%r(HTTPOptions,11A,"HTTP/1\.1\x
+SF:20302\x20Moved\x20Temporarily\r\nConnection:\x20close\r\nLocation:\x20h
+SF:ttp://192\.168\.1\.203:8880/guest/s/default/\?ap=f0:9f:c2:20:2e:d7&ec=z
+SF:BoVihUigpEaiP1D6hyAVnGopQcm0OEB6aAqE1wtCUNFZJId1nEnKu7H7T12Ku30QRrhJ6cc
+SF:dL8lhM02xo0I2HeM6ydx9fbY6Hd5XkWlCRWCVtS0UlAwV2OyHhFNiiFHDm45VMfhl3V3xZE
+SF:BaY8C1g\r\n\r\n")%r(RTSPRequest,11A,"HTTP/1\.1\x20302\x20Moved\x20Tempo
+SF:rarily\r\nConnection:\x20close\r\nLocation:\x20http://192\.168\.1\.203:
+SF:8880/guest/s/default/\?ap=f0:9f:c2:20:2e:d7&ec=zBoVihUigpEaiP1D6hyAVnGo
+SF:pQcm0OEB6aAqE1wtCUNFZJId1nEnKu7H7T12Ku30QRrhJ6ccdL8lhM02xo0I2HeM6ydx9fb
+SF:Y6Hd5XkWlCRWCVtS0UlAwV2OyHhFNiiFHDm45VMfhl3V3xZEBaY8C1g\r\n\r\n")%r(Fou
+SF:rOhFourRequest,144,"HTTP/1\.1\x20302\x20Moved\x20Temporarily\r\nConnect
+SF:ion:\x20close\r\nLocation:\x20http://192\.168\.1\.203:8880/guest/s/defa
+SF:ult/\?ap=f0:9f:c2:20:2e:d7&ec=zBoVihUigpEaiP1D6hyAVnGopQcm0OEB6aAqE1wtC
+SF:UNFZJId1nEnKu7H7T12Ku30QRrhJ6ccdL8lhM02xo0I2HeM6ydx9fbY6Hd5XkWlCRWCVtS0
+SF:UlAwV2OyHhFNiiFHyF8Mcn1-J4FqNgcyAeZTo6egQSJ2C02_ZZJJCuwFVodCxvHPTCioh-Z
+SF:XqyGd1wkj\r\n\r\n")%r(SIPOptions,11A,"HTTP/1\.1\x20302\x20Moved\x20Temp
+SF:orarily\r\nConnection:\x20close\r\nLocation:\x20http://192\.168\.1\.203
+SF::8880/guest/s/default/\?ap=f0:9f:c2:20:2e:d7&ec=zBoVihUigpEaiP1D6hyAVnG
+SF:opQcm0OEB6aAqE1wtCUNFZJId1nEnKu7H7T12Ku30QRrhJ6ccdL8lhM02xo0I2HeM6ydx9f
+SF:bY6Hd5XkWlCRWCVtS0UlAwV2OyHhFNiiFHMgwawBqd8m72WxaMWnh2Rw\r\n\r\n");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (94%), QEMU (93%), Bay Networks embedded (87%), Allied Telesyn embedded (86%), Cisco embedded (85%), Linux (85%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/h:cisco:css_11501 cpe:/o:linux:linux_kernel:2.6.18
+Aggressive OS guesses: Oracle Virtualbox (94%), QEMU user mode network gateway (93%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (87%), Allied Telesyn AT-9006SX/SC switch (86%), Cisco CSS 11501 switch (85%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   1.28 ms 192.168.1.24
+
+Nmap scan report for 192.168.1.25
+Host is up (0.0030s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.92 ms 192.168.1.25
+
+Nmap scan report for 192.168.1.26
+Host is up (0.0026s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.91 ms 192.168.1.26
+
+Nmap scan report for 192.168.1.27
+Host is up (0.0026s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.89 ms 192.168.1.27
+
+Nmap scan report for 192.168.1.28
+Host is up (0.0033s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.24 ms 192.168.1.28
+
+Nmap scan report for 192.168.1.29
+Host is up (0.0028s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.23 ms 192.168.1.29
+
+Nmap scan report for 192.168.1.30
+Host is up (0.017s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Webs
+|_http-server-header: Webs
+| http-methods: 
+|_  Potentially risky methods: PUT DELETE
+|_http-favicon: Hikvision DVR
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.0 404 Not Found
+|     Date: Thu, 17 Feb 2022 09:31:44 GMT
+|     Server: Webs
+|     Cache-Control: no-cache
+|     Content-Length: 166
+|     Content-Type: text/html
+|     Connection: close
+|     <!DOCTYPE html>
+|     <html><head><title>Document Error: Not Found</title></head>
+|     <body><h2>Access Error: 404 -- Not Found</h2>
+|     <p>Can't open URL</p>
+|     </body>
+|     </html>
+|   GetRequest: 
+|     HTTP/1.0 200 OK
+|     Date: Thu, 17 Feb 2022 09:31:37 GMT
+|     Server: Webs
+|     ETag: "0-1185-1e0"
+|     Content-Length: 480
+|     Content-Type: text/html
+|     Connection: close
+|     Last-Modified: Fri, 09 Feb 2018 08:39:50 GMT
+|     <!doctype html>
+|     <html>
+|     <head>
+|     <title></title>
+|     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+|     <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+|     <meta http-equiv="Pragma" content="no-cache" />
+|     <meta http-equiv="Cache-Control" content="no-cache, must-revalidate" />
+|     <meta http-equiv="Expires" content="0" />
+|     </head>
+|     <body>
+|     </body>
+|     <script>
+|     window.location.href = "/doc/page/login.asp?_" + (new Date()).getTime();
+|     </script>
+|     </html>
+|   HTTPOptions: 
+|     HTTP/1.0 200 OK
+|     Date: Thu, 17 Feb 2022 09:31:38 GMT
+|     Server: Webs
+|     Content-Length: 0
+|     Content-Type: text/html
+|     Connection: close
+|_    Allow: OPTIONS,GET,HEAD,POST,PUT,DELETE
+|_http-title: Site doesn't have a title (text/html).
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.92%I=7%D=2/17%Time=620E15FB%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,2A9,"HTTP/1\.0\x20200\x20OK\r\nDate:\x20Thu,\x2017\x20Feb\x20202
+SF:2\x2009:31:37\x20GMT\r\nServer:\x20Webs\r\nETag:\x20\"0-1185-1e0\"\r\nC
+SF:ontent-Length:\x20480\r\nContent-Type:\x20text/html\r\nConnection:\x20c
+SF:lose\r\nLast-Modified:\x20Fri,\x2009\x20Feb\x202018\x2008:39:50\x20GMT\
+SF:r\n\r\n\xef\xbb\xbf<!doctype\x20html>\r\n<html>\r\n<head>\r\n\t<title><
+SF:/title>\r\n\t<meta\x20http-equiv=\"Content-Type\"\x20content=\"text/htm
+SF:l;\x20charset=utf-8\"\x20/>\r\n\t<meta\x20http-equiv=\"X-UA-Compatible\
+SF:"\x20content=\"IE=edge\"\x20>\r\n\t<meta\x20http-equiv=\"Pragma\"\x20co
+SF:ntent=\"no-cache\"\x20/>\r\n\t<meta\x20http-equiv=\"Cache-Control\"\x20
+SF:content=\"no-cache,\x20must-revalidate\"\x20/>\r\n\t<meta\x20http-equiv
+SF:=\"Expires\"\x20content=\"0\"\x20/>\r\n</head>\r\n<body>\r\n</body>\r\n
+SF:<script>\r\n\twindow\.location\.href\x20=\x20\"/doc/page/login\.asp\?_\
+SF:"\x20\+\x20\(new\x20Date\(\)\)\.getTime\(\);\r\n</script>\r\n</html>")%
+SF:r(HTTPOptions,AE,"HTTP/1\.0\x20200\x20OK\r\nDate:\x20Thu,\x2017\x20Feb\
+SF:x202022\x2009:31:38\x20GMT\r\nServer:\x20Webs\r\nContent-Length:\x200\r
+SF:\nContent-Type:\x20text/html\r\nConnection:\x20close\r\nAllow:\x20OPTIO
+SF:NS,GET,HEAD,POST,PUT,DELETE\r\n\r\n")%r(FourOhFourRequest,14D,"HTTP/1\.
+SF:0\x20404\x20Not\x20Found\r\nDate:\x20Thu,\x2017\x20Feb\x202022\x2009:31
+SF::44\x20GMT\r\nServer:\x20Webs\r\nCache-Control:\x20no-cache\r\nContent-
+SF:Length:\x20166\r\nContent-Type:\x20text/html\r\nConnection:\x20close\r\
+SF:n\r\n<!DOCTYPE\x20html>\r\n<html><head><title>Document\x20Error:\x20Not
+SF:\x20Found</title></head>\r\n<body><h2>Access\x20Error:\x20404\x20--\x20
+SF:Not\x20Found</h2>\r\n<p>Can't\x20open\x20URL</p>\r\n</body>\r\n</html>\
+SF:r\n");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (94%), QEMU (93%), Bay Networks embedded (87%), Allied Telesyn embedded (86%), Cisco embedded (85%), Linux (85%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/h:cisco:css_11501 cpe:/o:linux:linux_kernel:2.6.18
+Aggressive OS guesses: Oracle Virtualbox (94%), QEMU user mode network gateway (93%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (87%), Allied Telesyn AT-9006SX/SC switch (86%), Cisco CSS 11501 switch (85%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2.06 ms 192.168.1.30
+
+Nmap scan report for 192.168.1.31
+Host is up (0.0029s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.57 ms 192.168.1.31
+
+Nmap scan report for 192.168.1.32
+Host is up (0.0067s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.57 ms 192.168.1.32
+
+Nmap scan report for 192.168.1.33
+Host is up (0.0028s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.79 ms 192.168.1.33
+
+Nmap scan report for 192.168.1.34
+Host is up (0.0026s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.74 ms 192.168.1.34
+
+Nmap scan report for 192.168.1.35
+Host is up (0.0033s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.72 ms 192.168.1.35
+
+Nmap scan report for 192.168.1.36
+Host is up (0.0033s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.70 ms 192.168.1.36
+
+Nmap scan report for 192.168.1.37
+Host is up (0.0031s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.66 ms 192.168.1.37
+
+Nmap scan report for 192.168.1.38
+Host is up (0.0030s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.81 ms 192.168.1.38
+
+Nmap scan report for 192.168.1.39
+Host is up (0.0029s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.76 ms 192.168.1.39
+
+Nmap scan report for 192.168.1.40
+Host is up (0.0027s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.72 ms 192.168.1.40
+
+Nmap scan report for 192.168.1.41
+Host is up (0.0011s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.70 ms 192.168.1.41
+
+Nmap scan report for 192.168.1.42
+Host is up (0.0010s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.67 ms 192.168.1.42
+
+Nmap scan report for 192.168.1.43
+Host is up (0.00083s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.65 ms 192.168.1.43
+
+Nmap scan report for 192.168.1.44
+Host is up (0.00092s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.59 ms 192.168.1.44
+
+Nmap scan report for 192.168.1.45
+Host is up (0.00093s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.57 ms 192.168.1.45
+
+Nmap scan report for 192.168.1.46
+Host is up (0.00078s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.56 ms 192.168.1.46
+
+Nmap scan report for 192.168.1.47
+Host is up (0.00074s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.54 ms 192.168.1.47
+
+Nmap scan report for 192.168.1.48
+Host is up (0.00058s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.57 ms 192.168.1.48
+
+Nmap scan report for 192.168.1.49
+Host is up (0.00073s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.50 ms 192.168.1.49
+
+Nmap scan report for 192.168.1.50
+Host is up (0.00070s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.49 ms 192.168.1.50
+
+Nmap scan report for 192.168.1.51
+Host is up (0.0063s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT        ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2024.77 ms 192.168.1.51
+
+Nmap scan report for 192.168.1.52
+Host is up (0.0095s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT        ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2029.90 ms 192.168.1.52
+
+Nmap scan report for 192.168.1.53
+Host is up (0.0040s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   6.89 ms 192.168.1.53
+
+Nmap scan report for 192.168.1.54
+Host is up (0.019s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  rtsp
+|_http-server-header: Webs
+| http-title: Login
+|_Requested resource was http://192.168.1.54/camdef.asp?OENBRTg5=OENBRTg5Z
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 400 Page not found
+|     Server: Webs
+|     Date: Thu Feb 17 10:31:59 2022
+|     Pragma: no-cache
+|     Cache-Control: no-cache
+|     Content-Type: text/html
+|     <html><head><title>Document Error: Page not found</title></head>
+|     <body><h2>Access Error: Page not found</h2>
+|     when trying to obtain <b>/nice%20ports%2C/Tri%6Eity.txt%2ebak</b><br><p>Cannot open URL <b>/nice%20ports%2C/Tri%6Eity.txt%2ebak</b></p></body></html>
+|   GetRequest: 
+|     HTTP/1.0 302 Redirect
+|     Server: Webs
+|     Date: Thu Feb 17 10:31:54 2022
+|     Pragma: no-cache
+|     Cache-Control: no-cache
+|     Content-Type: text/html
+|     Location: http://hmindoor:50825/camdef.asp?OENBRTg5=OENBRTg5Z
+|     <html><head></head><body>
+|     This document has moved to a new <a href="http://hmindoor:50825/camdef.asp?OENBRTg5=OENBRTg5Z?OENBRTg5=OENBRTg5Z">location</a>.
+|     Please update your documents to reflect the new location.
+|     </body></html>
+|   HTTPOptions: 
+|     HTTP/1.1 400 Page not found
+|     Server: Webs
+|     Date: Thu Feb 17 10:31:54 2022
+|     Pragma: no-cache
+|     Cache-Control: no-cache
+|     Content-Type: text/html
+|     <html><head><title>Document Error: Page not found</title></head>
+|     <body><h2>Access Error: Page not found</h2>
+|     when trying to obtain <b>(null)</b><br><p>Bad request type</p></body></html>
+|   RTSPRequest: 
+|     RTSP/1.0 200 OK
+|     CSeq: 
+|     Public: DESCRIBE, SETUP, TEARDOWN, PLAY, PAUSE
+|_    Server: Y-cam HomeMonitor Indoor
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.92%I=7%D=2/17%Time=620E15FB%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,1B9,"HTTP/1\.0\x20302\x20Redirect\r\nServer:\x20Webs\r\nDate:\x2
+SF:0Thu\x20Feb\x2017\x2010:31:54\x202022\r\nPragma:\x20no-cache\r\nCache-C
+SF:ontrol:\x20no-cache\r\nContent-Type:\x20text/html\r\nLocation:\x20http:
+SF://hmindoor:50825/camdef\.asp\?OENBRTg5=OENBRTg5Z\r\n\r\n<html><head></h
+SF:ead><body>\r\n\t\tThis\x20document\x20has\x20moved\x20to\x20a\x20new\x2
+SF:0<a\x20href=\"http://hmindoor:50825/camdef\.asp\?OENBRTg5=OENBRTg5Z\?OE
+SF:NBRTg5=OENBRTg5Z\">location</a>\.\r\n\t\tPlease\x20update\x20your\x20do
+SF:cuments\x20to\x20reflect\x20the\x20new\x20location\.\r\n\t\t</body></ht
+SF:ml>\r\n\r\n")%r(HTTPOptions,154,"HTTP/1\.1\x20400\x20Page\x20not\x20fou
+SF:nd\r\nServer:\x20Webs\r\nDate:\x20Thu\x20Feb\x2017\x2010:31:54\x202022\
+SF:r\nPragma:\x20no-cache\r\nCache-Control:\x20no-cache\r\nContent-Type:\x
+SF:20text/html\r\n\r\n<html><head><title>Document\x20Error:\x20Page\x20not
+SF:\x20found</title></head>\r\n\t\t<body><h2>Access\x20Error:\x20Page\x20n
+SF:ot\x20found</h2>\r\n\t\twhen\x20trying\x20to\x20obtain\x20<b>\(null\)</
+SF:b><br><p>Bad\x20request\x20type</p></body></html>\r\n\r\n")%r(RTSPReque
+SF:st,6D,"RTSP/1\.0\x20200\x20OK\r\nCSeq:\x20\r\nPublic:\x20DESCRIBE,\x20S
+SF:ETUP,\x20TEARDOWN,\x20PLAY,\x20PAUSE\r\nServer:\x20Y-cam\x20HomeMonitor
+SF:\x20Indoor\r\n\r\n")%r(FourOhFourRequest,19D,"HTTP/1\.1\x20400\x20Page\
+SF:x20not\x20found\r\nServer:\x20Webs\r\nDate:\x20Thu\x20Feb\x2017\x2010:3
+SF:1:59\x202022\r\nPragma:\x20no-cache\r\nCache-Control:\x20no-cache\r\nCo
+SF:ntent-Type:\x20text/html\r\n\r\n<html><head><title>Document\x20Error:\x
+SF:20Page\x20not\x20found</title></head>\r\n\t\t<body><h2>Access\x20Error:
+SF:\x20Page\x20not\x20found</h2>\r\n\t\twhen\x20trying\x20to\x20obtain\x20
+SF:<b>/nice%20ports%2C/Tri%6Eity\.txt%2ebak</b><br><p>Cannot\x20open\x20UR
+SF:L\x20<b>/nice%20ports%2C/Tri%6Eity\.txt%2ebak</b></p></body></html>\r\n
+SF:\r\n");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (94%), QEMU (93%), Bay Networks embedded (87%), Allied Telesyn embedded (86%), Cisco embedded (85%), Linux (85%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/h:cisco:css_11501 cpe:/o:linux:linux_kernel:2.6.18
+Aggressive OS guesses: Oracle Virtualbox (94%), QEMU user mode network gateway (93%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (87%), Allied Telesyn AT-9006SX/SC switch (86%), Cisco CSS 11501 switch (85%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   6.84 ms 192.168.1.54
+
+Nmap scan report for 192.168.1.55
+Host is up (0.0012s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   6.81 ms 192.168.1.55
+
+Nmap scan report for 192.168.1.56
+Host is up (0.12s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT        ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   3089.10 ms 192.168.1.56
+
+Nmap scan report for 192.168.1.57
+Host is up (0.31s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT        ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2789.98 ms 192.168.1.57
+
+Nmap scan report for 192.168.1.58
+Host is up (0.0028s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT      ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   10.54 ms 192.168.1.58
+
+Nmap scan report for 192.168.1.59
+Host is up (0.00099s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.33 ms 192.168.1.59
+
+Nmap scan report for 192.168.1.60
+Host is up (0.022s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Microsoft IIS httpd 10.0
+|_http-server-header: Microsoft-IIS/10.0
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-title: IIS Windows
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (97%), QEMU (95%), Bay Networks embedded (90%), Allied Telesyn embedded (88%), Linux (88%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/o:linux:linux_kernel:2.6.18
+Aggressive OS guesses: Oracle Virtualbox (97%), QEMU user mode network gateway (95%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (90%), Allied Telesyn AT-9006SX/SC switch (88%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.24 ms 192.168.1.60
+
+Nmap scan report for 192.168.1.61
+Host is up (0.0026s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), SiliconDust HDHomeRun 3 set top box (94%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (93%), Agfa DryStar 5500 printer (93%), Leica T camera (93%), Tahoe 8216 power management system (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT        ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2005.57 ms 192.168.1.61
+
+Nmap scan report for 192.168.1.62
+Host is up (0.00040s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.71 ms 192.168.1.62
+
+Nmap scan report for 192.168.1.63
+Host is up (0.00029s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.57 ms 192.168.1.63
+
+Nmap scan report for 192.168.1.64
+Host is up (0.0011s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.56 ms 192.168.1.64
+
+Nmap scan report for 192.168.1.65
+Host is up (0.0011s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.80 ms 192.168.1.65
+
+Nmap scan report for 192.168.1.66
+Host is up (0.00051s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.74 ms 192.168.1.66
+
+Nmap scan report for 192.168.1.67
+Host is up (0.00032s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.58 ms 192.168.1.67
+
+Nmap scan report for 192.168.1.68
+Host is up (0.019s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  rtsp
+|_http-server-header: Webs
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 400 Page not found
+|     Server: Webs
+|     Date: Thu Feb 17 10:30:43 2022
+|     Pragma: no-cache
+|     Cache-Control: no-cache
+|     Content-Type: text/html
+|     <html><head><title>Document Error: Page not found</title></head>
+|     <body><h2>Access Error: Page not found</h2>
+|     when trying to obtain <b>/nice%20ports%2C/Tri%6Eity.txt%2ebak</b><br><p>Cannot open URL <b>/nice%20ports%2C/Tri%6Eity.txt%2ebak</b></p></body></html>
+|   GetRequest: 
+|     HTTP/1.0 302 Redirect
+|     Server: Webs
+|     Date: Thu Feb 17 10:30:37 2022
+|     Pragma: no-cache
+|     Cache-Control: no-cache
+|     Content-Type: text/html
+|     Location: http://hmindoor:50825/camdef.asp?OENBRTg5=OENBRTg5Z
+|     <html><head></head><body>
+|     This document has moved to a new <a href="http://hmindoor:50825/camdef.asp?OENBRTg5=OENBRTg5Z?OENBRTg5=OENBRTg5Z">location</a>.
+|     Please update your documents to reflect the new location.
+|     </body></html>
+|   HTTPOptions: 
+|     HTTP/1.1 400 Page not found
+|     Server: Webs
+|     Date: Thu Feb 17 10:30:37 2022
+|     Pragma: no-cache
+|     Cache-Control: no-cache
+|     Content-Type: text/html
+|     <html><head><title>Document Error: Page not found</title></head>
+|     <body><h2>Access Error: Page not found</h2>
+|     when trying to obtain <b>(null)</b><br><p>Bad request type</p></body></html>
+|   RTSPRequest: 
+|     RTSP/1.0 200 OK
+|     CSeq: 
+|     Public: DESCRIBE, SETUP, TEARDOWN, PLAY, PAUSE
+|_    Server: Y-cam HomeMonitor Indoor
+| http-title: Login
+|_Requested resource was http://192.168.1.68/camdef.asp?OENBRTg5=OENBRTg5Z
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.92%I=7%D=2/17%Time=620E15FB%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,1B9,"HTTP/1\.0\x20302\x20Redirect\r\nServer:\x20Webs\r\nDate:\x2
+SF:0Thu\x20Feb\x2017\x2010:30:37\x202022\r\nPragma:\x20no-cache\r\nCache-C
+SF:ontrol:\x20no-cache\r\nContent-Type:\x20text/html\r\nLocation:\x20http:
+SF://hmindoor:50825/camdef\.asp\?OENBRTg5=OENBRTg5Z\r\n\r\n<html><head></h
+SF:ead><body>\r\n\t\tThis\x20document\x20has\x20moved\x20to\x20a\x20new\x2
+SF:0<a\x20href=\"http://hmindoor:50825/camdef\.asp\?OENBRTg5=OENBRTg5Z\?OE
+SF:NBRTg5=OENBRTg5Z\">location</a>\.\r\n\t\tPlease\x20update\x20your\x20do
+SF:cuments\x20to\x20reflect\x20the\x20new\x20location\.\r\n\t\t</body></ht
+SF:ml>\r\n\r\n")%r(HTTPOptions,154,"HTTP/1\.1\x20400\x20Page\x20not\x20fou
+SF:nd\r\nServer:\x20Webs\r\nDate:\x20Thu\x20Feb\x2017\x2010:30:37\x202022\
+SF:r\nPragma:\x20no-cache\r\nCache-Control:\x20no-cache\r\nContent-Type:\x
+SF:20text/html\r\n\r\n<html><head><title>Document\x20Error:\x20Page\x20not
+SF:\x20found</title></head>\r\n\t\t<body><h2>Access\x20Error:\x20Page\x20n
+SF:ot\x20found</h2>\r\n\t\twhen\x20trying\x20to\x20obtain\x20<b>\(null\)</
+SF:b><br><p>Bad\x20request\x20type</p></body></html>\r\n\r\n")%r(RTSPReque
+SF:st,6D,"RTSP/1\.0\x20200\x20OK\r\nCSeq:\x20\r\nPublic:\x20DESCRIBE,\x20S
+SF:ETUP,\x20TEARDOWN,\x20PLAY,\x20PAUSE\r\nServer:\x20Y-cam\x20HomeMonitor
+SF:\x20Indoor\r\n\r\n")%r(FourOhFourRequest,19D,"HTTP/1\.1\x20400\x20Page\
+SF:x20not\x20found\r\nServer:\x20Webs\r\nDate:\x20Thu\x20Feb\x2017\x2010:3
+SF:0:43\x202022\r\nPragma:\x20no-cache\r\nCache-Control:\x20no-cache\r\nCo
+SF:ntent-Type:\x20text/html\r\n\r\n<html><head><title>Document\x20Error:\x
+SF:20Page\x20not\x20found</title></head>\r\n\t\t<body><h2>Access\x20Error:
+SF:\x20Page\x20not\x20found</h2>\r\n\t\twhen\x20trying\x20to\x20obtain\x20
+SF:<b>/nice%20ports%2C/Tri%6Eity\.txt%2ebak</b><br><p>Cannot\x20open\x20UR
+SF:L\x20<b>/nice%20ports%2C/Tri%6Eity\.txt%2ebak</b></p></body></html>\r\n
+SF:\r\n");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (94%), QEMU (93%), Bay Networks embedded (87%), Allied Telesyn embedded (86%), Cisco embedded (85%), Linux (85%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/h:cisco:css_11501 cpe:/o:linux:linux_kernel:2.6.18
+Aggressive OS guesses: Oracle Virtualbox (94%), QEMU user mode network gateway (93%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (87%), Allied Telesyn AT-9006SX/SC switch (86%), Cisco CSS 11501 switch (85%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2.01 ms 192.168.1.68
+
+Nmap scan report for 192.168.1.69
+Host is up (0.0011s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.57 ms 192.168.1.69
+
+Nmap scan report for 192.168.1.70
+Host is up (0.00096s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.41 ms 192.168.1.70
+
+Nmap scan report for 192.168.1.71
+Host is up (0.0021s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.56 ms 192.168.1.71
+
+Nmap scan report for 192.168.1.72
+Host is up (0.0020s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.54 ms 192.168.1.72
+
+Nmap scan report for 192.168.1.73
+Host is up (0.024s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Lantronix XPort embedded ethernet http config
+|_http-title: Site doesn't have a title (text/html).
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (94%), QEMU (93%), Bay Networks embedded (87%), Allied Telesyn embedded (86%), Cisco embedded (85%), Linux (85%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/h:cisco:css_11501 cpe:/o:linux:linux_kernel:2.6.18
+Aggressive OS guesses: Oracle Virtualbox (94%), QEMU user mode network gateway (93%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (87%), Allied Telesyn AT-9006SX/SC switch (86%), Cisco CSS 11501 switch (85%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   9.02 ms 192.168.1.73
+
+Nmap scan report for 192.168.1.74
+Host is up (0.0018s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   7.92 ms 192.168.1.74
+
+Nmap scan report for 192.168.1.75
+Host is up (0.0018s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   7.87 ms 192.168.1.75
+
+Nmap scan report for 192.168.1.76
+Host is up (0.020s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  rtsp    Y-cam HomeMonitor HD Pro rtspd
+|_http-server-header: Webs
+| http-title: Login
+|_Requested resource was http://192.168.1.76/default.asp
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (94%), QEMU (93%), Bay Networks embedded (87%), Allied Telesyn embedded (86%), Linux (85%), Cisco embedded (85%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/o:linux:linux_kernel:2.6.18 cpe:/h:cisco:css_11501
+Aggressive OS guesses: Oracle Virtualbox (94%), QEMU user mode network gateway (93%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (87%), Allied Telesyn AT-9006SX/SC switch (86%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (85%), Cisco CSS 11501 switch (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: Device: webcam; CPE: cpe:/h:y-cam:homemonitor_hd_pro
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   7.86 ms 192.168.1.76
+
+Nmap scan report for 192.168.1.77
+Host is up (0.0022s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2.34 ms 192.168.1.77
+
+Nmap scan report for 192.168.1.78
+Host is up (0.0020s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2.25 ms 192.168.1.78
+
+Nmap scan report for 192.168.1.79
+Host is up (0.0010s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2.19 ms 192.168.1.79
+
+Nmap scan report for 192.168.1.80
+Host is up (0.019s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd
+|_http-server-header: Apache
+|_http-title: Did not follow redirect to https://192.168.1.80:443/
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (94%), QEMU (93%), Bay Networks embedded (87%), Allied Telesyn embedded (86%), Linux (85%), Cisco embedded (85%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/o:linux:linux_kernel:2.6.18 cpe:/h:cisco:css_11501
+Aggressive OS guesses: Oracle Virtualbox (94%), QEMU user mode network gateway (93%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (87%), Allied Telesyn AT-9006SX/SC switch (86%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (85%), Cisco CSS 11501 switch (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   1.49 ms 192.168.1.80
+
+Nmap scan report for 192.168.1.81
+Host is up (0.019s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Dell iDRAC 8 admin httpd (time zone: CST)
+|_http-title: Did not follow redirect to https://192.168.1.81/start.html
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (94%), QEMU (93%), Bay Networks embedded (87%), Allied Telesyn embedded (86%), Linux (85%), Cisco embedded (85%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/o:linux:linux_kernel:2.6.18 cpe:/h:cisco:css_11501
+Aggressive OS guesses: Oracle Virtualbox (94%), QEMU user mode network gateway (93%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (87%), Allied Telesyn AT-9006SX/SC switch (86%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (85%), Cisco CSS 11501 switch (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: CPE: cpe:/o:dell:idrac8_firmware
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   1.99 ms 192.168.1.81
+
+Nmap scan report for 192.168.1.82
+Host is up (0.019s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http
+|_http-title: Did not follow redirect to https://192.168.1.82/start.html
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.0 302 Moved Temporarily
+|     Vary: Accept-Encoding
+|     Content-Type: text/html
+|     Location: http://192.168.1.82/start.html
+|     Date: Thu, 17 Feb 2022 15:30:45 GMT
+|     ETag: Thu Feb 17 09:30:45 2022 CST
+|     Cache-Control: no-cache
+|     Content-Length: 200
+|     Connection: close
+|     Accept-Ranges: bytes
+|     <!DOCTYPE html>
+|     <html><head><title>Moved Temporarily</title></head>
+|     <body><h1>Moved Temporarily</h1>
+|     <p>The document has moved <a href="http://192.168.1.82/start.html">here</a>.</p></body></html>
+|   GetRequest: 
+|     HTTP/1.0 302 Moved Temporarily
+|     Vary: Accept-Encoding
+|     Content-Type: application/x-gzip
+|     Location: https://192.168.1.82/start.html
+|     Date: Thu, 17 Feb 2022 15:30:39 GMT
+|     ETag: Thu Feb 17 09:30:39 2022 CST
+|     Content-Length: 201
+|     Last-Modified: Fri, 21 Feb 2020 09:01:09 GMT
+|     Connection: close
+|     Accept-Ranges: bytes
+|     <!DOCTYPE html>
+|     <html><head><title>Moved Temporarily</title></head>
+|     <body><h1>Moved Temporarily</h1>
+|     <p>The document has moved <a href="https://192.168.1.82/start.html">here</a>.</p></body></html>
+|   HTTPOptions: 
+|     HTTP/1.0 302 Moved Temporarily
+|     Vary: Accept-Encoding
+|     Content-Type: text/html
+|     Location: https://192.168.1.82/start.html
+|     Date: Thu, 17 Feb 2022 15:30:39 GMT
+|     ETag: Thu Feb 17 09:30:39 2022 CST
+|     Cache-Control: no-cache
+|     Content-Length: 201
+|     Connection: close
+|     Accept-Ranges: bytes
+|     <!DOCTYPE html>
+|     <html><head><title>Moved Temporarily</title></head>
+|     <body><h1>Moved Temporarily</h1>
+|_    <p>The document has moved <a href="https://192.168.1.82/start.html">here</a>.</p></body></html>
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.92%I=7%D=2/17%Time=620E15FB%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,204,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nVary:\x20Accept
+SF:-Encoding\r\nContent-Type:\x20application/x-gzip\r\nLocation:\x20https:
+SF://192\.168\.1\.82/start\.html\r\nDate:\x20Thu,\x2017\x20Feb\x202022\x20
+SF:15:30:39\x20GMT\r\nETag:\x20Thu\x20Feb\x2017\x2009:30:39\x202022\x20CST
+SF:\r\nContent-Length:\x20201\r\nLast-Modified:\x20Fri,\x2021\x20Feb\x2020
+SF:20\x2009:01:09\x20GMT\r\nConnection:\x20close\r\nAccept-Ranges:\x20byte
+SF:s\r\n\r\n<!DOCTYPE\x20html>\r\n<html><head><title>Moved\x20Temporarily<
+SF:/title></head>\r\n<body><h1>Moved\x20Temporarily</h1>\r\n<p>The\x20docu
+SF:ment\x20has\x20moved\x20<a\x20href=\"https://192\.168\.1\.82/start\.htm
+SF:l\">here</a>\.</p></body></html>\r\n")%r(HTTPOptions,1E6,"HTTP/1\.0\x20
+SF:302\x20Moved\x20Temporarily\r\nVary:\x20Accept-Encoding\r\nContent-Type
+SF::\x20text/html\r\nLocation:\x20https://192\.168\.1\.82/start\.html\r\nD
+SF:ate:\x20Thu,\x2017\x20Feb\x202022\x2015:30:39\x20GMT\r\nETag:\x20Thu\x2
+SF:0Feb\x2017\x2009:30:39\x202022\x20CST\r\nCache-Control:\x20no-cache\r\n
+SF:Content-Length:\x20201\r\nConnection:\x20close\r\nAccept-Ranges:\x20byt
+SF:es\r\n\r\n<!DOCTYPE\x20html>\r\n<html><head><title>Moved\x20Temporarily
+SF:</title></head>\r\n<body><h1>Moved\x20Temporarily</h1>\r\n<p>The\x20doc
+SF:ument\x20has\x20moved\x20<a\x20href=\"https://192\.168\.1\.82/start\.ht
+SF:ml\">here</a>\.</p></body></html>\r\n")%r(FourOhFourRequest,1E4,"HTTP/1
+SF:\.0\x20302\x20Moved\x20Temporarily\r\nVary:\x20Accept-Encoding\r\nConte
+SF:nt-Type:\x20text/html\r\nLocation:\x20http://192\.168\.1\.82/start\.htm
+SF:l\r\nDate:\x20Thu,\x2017\x20Feb\x202022\x2015:30:45\x20GMT\r\nETag:\x20
+SF:Thu\x20Feb\x2017\x2009:30:45\x202022\x20CST\r\nCache-Control:\x20no-cac
+SF:he\r\nContent-Length:\x20200\r\nConnection:\x20close\r\nAccept-Ranges:\
+SF:x20bytes\r\n\r\n<!DOCTYPE\x20html>\r\n<html><head><title>Moved\x20Tempo
+SF:rarily</title></head>\r\n<body><h1>Moved\x20Temporarily</h1>\r\n<p>The\
+SF:x20document\x20has\x20moved\x20<a\x20href=\"http://192\.168\.1\.82/star
+SF:t\.html\">here</a>\.</p></body></html>\r\n");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (94%), QEMU (93%), Bay Networks embedded (87%), Allied Telesyn embedded (86%), Linux (85%), Cisco embedded (85%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/o:linux:linux_kernel:2.6.18 cpe:/h:cisco:css_11501
+Aggressive OS guesses: Oracle Virtualbox (94%), QEMU user mode network gateway (93%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (87%), Allied Telesyn AT-9006SX/SC switch (86%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (85%), Cisco CSS 11501 switch (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   1.65 ms 192.168.1.82
+
+Nmap scan report for 192.168.1.83
+Host is up (0.019s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Dell iDRAC 8 admin httpd (time zone: CST)
+|_http-title: Did not follow redirect to https://192.168.1.83/start.html
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (94%), QEMU (93%), Bay Networks embedded (87%), Allied Telesyn embedded (86%), Linux (85%), Cisco embedded (85%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/o:linux:linux_kernel:2.6.18 cpe:/h:cisco:css_11501
+Aggressive OS guesses: Oracle Virtualbox (94%), QEMU user mode network gateway (93%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (87%), Allied Telesyn AT-9006SX/SC switch (86%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (85%), Cisco CSS 11501 switch (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: CPE: cpe:/o:dell:idrac8_firmware
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   1.95 ms 192.168.1.83
+
+Nmap scan report for 192.168.1.84
+Host is up (0.019s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Dell iDRAC 8 admin httpd (time zone: CST)
+|_http-title: Did not follow redirect to https://192.168.1.84/start.html
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (94%), QEMU (93%), Bay Networks embedded (87%), Allied Telesyn embedded (86%), Linux (85%), Cisco embedded (85%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/o:linux:linux_kernel:2.6.18 cpe:/h:cisco:css_11501
+Aggressive OS guesses: Oracle Virtualbox (94%), QEMU user mode network gateway (93%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (87%), Allied Telesyn AT-9006SX/SC switch (86%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (85%), Cisco CSS 11501 switch (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: CPE: cpe:/o:dell:idrac8_firmware
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2.05 ms 192.168.1.84
+
+Nmap scan report for 192.168.1.85
+Host is up (0.019s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Dell iDRAC 8 admin httpd (time zone: CST)
+|_http-title: Did not follow redirect to https://192.168.1.85/start.html
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (94%), QEMU (93%), Bay Networks embedded (87%), Allied Telesyn embedded (86%), Linux (85%), Cisco embedded (85%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/o:linux:linux_kernel:2.6.18 cpe:/h:cisco:css_11501
+Aggressive OS guesses: Oracle Virtualbox (94%), QEMU user mode network gateway (93%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (87%), Allied Telesyn AT-9006SX/SC switch (86%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (85%), Cisco CSS 11501 switch (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: CPE: cpe:/o:dell:idrac8_firmware
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2.00 ms 192.168.1.85
+
+Nmap scan report for 192.168.1.86
+Host is up (0.019s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http
+|_http-title: Did not follow redirect to https://192.168.1.86/start.html
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.0 302 Moved Temporarily
+|     Vary: Accept-Encoding
+|     Content-Type: text/html
+|     Location: http://192.168.1.86/start.html
+|     Date: Thu, 17 Feb 2022 15:30:55 GMT
+|     ETag: Thu Feb 17 09:30:55 2022 CST
+|     Cache-Control: no-cache
+|     Content-Length: 200
+|     Connection: close
+|     Accept-Ranges: bytes
+|     <!DOCTYPE html>
+|     <html><head><title>Moved Temporarily</title></head>
+|     <body><h1>Moved Temporarily</h1>
+|     <p>The document has moved <a href="http://192.168.1.86/start.html">here</a>.</p></body></html>
+|   GetRequest: 
+|     HTTP/1.0 302 Moved Temporarily
+|     Vary: Accept-Encoding
+|     Content-Type: application/x-gzip
+|     Location: https://192.168.1.86/start.html
+|     Date: Thu, 17 Feb 2022 15:30:49 GMT
+|     ETag: Thu Feb 17 09:30:49 2022 CST
+|     Content-Length: 201
+|     Last-Modified: Fri, 21 Feb 2020 09:01:09 GMT
+|     Connection: close
+|     Accept-Ranges: bytes
+|     <!DOCTYPE html>
+|     <html><head><title>Moved Temporarily</title></head>
+|     <body><h1>Moved Temporarily</h1>
+|     <p>The document has moved <a href="https://192.168.1.86/start.html">here</a>.</p></body></html>
+|   HTTPOptions: 
+|     HTTP/1.0 302 Moved Temporarily
+|     Vary: Accept-Encoding
+|     Content-Type: text/html
+|     Location: https://192.168.1.86/start.html
+|     Date: Thu, 17 Feb 2022 15:30:49 GMT
+|     ETag: Thu Feb 17 09:30:49 2022 CST
+|     Cache-Control: no-cache
+|     Content-Length: 201
+|     Connection: close
+|     Accept-Ranges: bytes
+|     <!DOCTYPE html>
+|     <html><head><title>Moved Temporarily</title></head>
+|     <body><h1>Moved Temporarily</h1>
+|_    <p>The document has moved <a href="https://192.168.1.86/start.html">here</a>.</p></body></html>
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.92%I=7%D=2/17%Time=620E15FB%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,204,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nVary:\x20Accept
+SF:-Encoding\r\nContent-Type:\x20application/x-gzip\r\nLocation:\x20https:
+SF://192\.168\.1\.86/start\.html\r\nDate:\x20Thu,\x2017\x20Feb\x202022\x20
+SF:15:30:49\x20GMT\r\nETag:\x20Thu\x20Feb\x2017\x2009:30:49\x202022\x20CST
+SF:\r\nContent-Length:\x20201\r\nLast-Modified:\x20Fri,\x2021\x20Feb\x2020
+SF:20\x2009:01:09\x20GMT\r\nConnection:\x20close\r\nAccept-Ranges:\x20byte
+SF:s\r\n\r\n<!DOCTYPE\x20html>\r\n<html><head><title>Moved\x20Temporarily<
+SF:/title></head>\r\n<body><h1>Moved\x20Temporarily</h1>\r\n<p>The\x20docu
+SF:ment\x20has\x20moved\x20<a\x20href=\"https://192\.168\.1\.86/start\.htm
+SF:l\">here</a>\.</p></body></html>\r\n")%r(HTTPOptions,1E6,"HTTP/1\.0\x20
+SF:302\x20Moved\x20Temporarily\r\nVary:\x20Accept-Encoding\r\nContent-Type
+SF::\x20text/html\r\nLocation:\x20https://192\.168\.1\.86/start\.html\r\nD
+SF:ate:\x20Thu,\x2017\x20Feb\x202022\x2015:30:49\x20GMT\r\nETag:\x20Thu\x2
+SF:0Feb\x2017\x2009:30:49\x202022\x20CST\r\nCache-Control:\x20no-cache\r\n
+SF:Content-Length:\x20201\r\nConnection:\x20close\r\nAccept-Ranges:\x20byt
+SF:es\r\n\r\n<!DOCTYPE\x20html>\r\n<html><head><title>Moved\x20Temporarily
+SF:</title></head>\r\n<body><h1>Moved\x20Temporarily</h1>\r\n<p>The\x20doc
+SF:ument\x20has\x20moved\x20<a\x20href=\"https://192\.168\.1\.86/start\.ht
+SF:ml\">here</a>\.</p></body></html>\r\n")%r(FourOhFourRequest,1E4,"HTTP/1
+SF:\.0\x20302\x20Moved\x20Temporarily\r\nVary:\x20Accept-Encoding\r\nConte
+SF:nt-Type:\x20text/html\r\nLocation:\x20http://192\.168\.1\.86/start\.htm
+SF:l\r\nDate:\x20Thu,\x2017\x20Feb\x202022\x2015:30:55\x20GMT\r\nETag:\x20
+SF:Thu\x20Feb\x2017\x2009:30:55\x202022\x20CST\r\nCache-Control:\x20no-cac
+SF:he\r\nContent-Length:\x20200\r\nConnection:\x20close\r\nAccept-Ranges:\
+SF:x20bytes\r\n\r\n<!DOCTYPE\x20html>\r\n<html><head><title>Moved\x20Tempo
+SF:rarily</title></head>\r\n<body><h1>Moved\x20Temporarily</h1>\r\n<p>The\
+SF:x20document\x20has\x20moved\x20<a\x20href=\"http://192\.168\.1\.86/star
+SF:t\.html\">here</a>\.</p></body></html>\r\n");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (94%), QEMU (93%), Bay Networks embedded (87%), Allied Telesyn embedded (86%), Linux (85%), Cisco embedded (85%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/o:linux:linux_kernel:2.6.18 cpe:/h:cisco:css_11501
+Aggressive OS guesses: Oracle Virtualbox (94%), QEMU user mode network gateway (93%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (87%), Allied Telesyn AT-9006SX/SC switch (86%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (85%), Cisco CSS 11501 switch (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   1.26 ms 192.168.1.86
+
+Nmap scan report for 192.168.1.87
+Host is up (0.019s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Dell iDRAC 8 admin httpd (time zone: CST)
+|_http-title: Did not follow redirect to https://192.168.1.87/start.html
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (94%), QEMU (93%), Bay Networks embedded (87%), Allied Telesyn embedded (86%), Linux (85%), Cisco embedded (85%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/o:linux:linux_kernel:2.6.18 cpe:/h:cisco:css_11501
+Aggressive OS guesses: Oracle Virtualbox (94%), QEMU user mode network gateway (93%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (87%), Allied Telesyn AT-9006SX/SC switch (86%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (85%), Cisco CSS 11501 switch (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: CPE: cpe:/o:dell:idrac8_firmware
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   1.35 ms 192.168.1.87
+
+Nmap scan report for 192.168.1.88
+Host is up (0.019s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Dell iDRAC 8 admin httpd (time zone: CST)
+|_http-title: Did not follow redirect to https://192.168.1.88/start.html
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (94%), QEMU (93%), Bay Networks embedded (87%), Allied Telesyn embedded (86%), Linux (85%), Cisco embedded (85%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/o:linux:linux_kernel:2.6.18 cpe:/h:cisco:css_11501
+Aggressive OS guesses: Oracle Virtualbox (94%), QEMU user mode network gateway (93%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (87%), Allied Telesyn AT-9006SX/SC switch (86%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (85%), Cisco CSS 11501 switch (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: CPE: cpe:/o:dell:idrac8_firmware
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   4.32 ms 192.168.1.88
+
+Nmap scan report for 192.168.1.89
+Host is up (0.019s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Dell iDRAC 8 admin httpd (time zone: CST)
+|_http-title: Did not follow redirect to https://192.168.1.89/start.html
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (94%), QEMU (93%), Bay Networks embedded (87%), Allied Telesyn embedded (86%), Linux (85%), Cisco embedded (85%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/o:linux:linux_kernel:2.6.18 cpe:/h:cisco:css_11501
+Aggressive OS guesses: Oracle Virtualbox (94%), QEMU user mode network gateway (93%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (87%), Allied Telesyn AT-9006SX/SC switch (86%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (85%), Cisco CSS 11501 switch (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: CPE: cpe:/o:dell:idrac8_firmware
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2.02 ms 192.168.1.89
+
+Nmap scan report for 192.168.1.90
+Host is up (0.017s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Dell iDRAC 8 admin httpd (time zone: CST)
+|_http-title: Did not follow redirect to https://192.168.1.90/start.html
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (94%), QEMU (93%), Bay Networks embedded (87%), Allied Telesyn embedded (86%), Linux (85%), Cisco embedded (85%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/o:linux:linux_kernel:2.6.18 cpe:/h:cisco:css_11501
+Aggressive OS guesses: Oracle Virtualbox (94%), QEMU user mode network gateway (93%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (87%), Allied Telesyn AT-9006SX/SC switch (86%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (85%), Cisco CSS 11501 switch (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: CPE: cpe:/o:dell:idrac8_firmware
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   1.27 ms 192.168.1.90
+
+Nmap scan report for 192.168.1.91
+Host is up (0.017s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Dell iDRAC 8 admin httpd (time zone: CST)
+|_http-title: Did not follow redirect to https://192.168.1.91/start.html
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (94%), QEMU (93%), Bay Networks embedded (87%), Allied Telesyn embedded (86%), Linux (85%), Cisco embedded (85%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/o:linux:linux_kernel:2.6.18 cpe:/h:cisco:css_11501
+Aggressive OS guesses: Oracle Virtualbox (94%), QEMU user mode network gateway (93%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (87%), Allied Telesyn AT-9006SX/SC switch (86%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (85%), Cisco CSS 11501 switch (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: CPE: cpe:/o:dell:idrac8_firmware
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   1.58 ms 192.168.1.91
+
+Nmap scan report for 192.168.1.92
+Host is up (0.018s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Dell iDRAC 8 admin httpd (time zone: CST)
+|_http-title: Did not follow redirect to https://192.168.1.92/start.html
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (94%), QEMU (93%), Bay Networks embedded (87%), Allied Telesyn embedded (86%), Linux (85%), Cisco embedded (85%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/o:linux:linux_kernel:2.6.18 cpe:/h:cisco:css_11501
+Aggressive OS guesses: Oracle Virtualbox (94%), QEMU user mode network gateway (93%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (87%), Allied Telesyn AT-9006SX/SC switch (86%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (85%), Cisco CSS 11501 switch (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: CPE: cpe:/o:dell:idrac8_firmware
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   5.41 ms 192.168.1.92
+
+Nmap scan report for 192.168.1.93
+Host is up (0.018s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Dell iDRAC 8 admin httpd (time zone: CST)
+|_http-title: Did not follow redirect to https://192.168.1.93/start.html
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (94%), QEMU (93%), Bay Networks embedded (87%), Allied Telesyn embedded (86%), Linux (85%), Cisco embedded (85%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/o:linux:linux_kernel:2.6.18 cpe:/h:cisco:css_11501
+Aggressive OS guesses: Oracle Virtualbox (94%), QEMU user mode network gateway (93%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (87%), Allied Telesyn AT-9006SX/SC switch (86%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (85%), Cisco CSS 11501 switch (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: CPE: cpe:/o:dell:idrac8_firmware
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   5.41 ms 192.168.1.93
+
+Nmap scan report for 192.168.1.94
+Host is up (0.016s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Dell iDRAC 8 admin httpd (time zone: CST)
+|_http-title: Did not follow redirect to https://192.168.1.94/start.html
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (94%), QEMU (93%), Bay Networks embedded (87%), Allied Telesyn embedded (86%), Linux (85%), Cisco embedded (85%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/o:linux:linux_kernel:2.6.18 cpe:/h:cisco:css_11501
+Aggressive OS guesses: Oracle Virtualbox (94%), QEMU user mode network gateway (93%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (87%), Allied Telesyn AT-9006SX/SC switch (86%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (85%), Cisco CSS 11501 switch (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: CPE: cpe:/o:dell:idrac8_firmware
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   5.42 ms 192.168.1.94
+
+Nmap scan report for 192.168.1.95
+Host is up (0.016s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Dell iDRAC 8 admin httpd (time zone: CST)
+|_http-title: Did not follow redirect to https://192.168.1.95/start.html
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (94%), QEMU (93%), Bay Networks embedded (87%), Allied Telesyn embedded (86%), Linux (85%), Cisco embedded (85%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/o:linux:linux_kernel:2.6.18 cpe:/h:cisco:css_11501
+Aggressive OS guesses: Oracle Virtualbox (94%), QEMU user mode network gateway (93%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (87%), Allied Telesyn AT-9006SX/SC switch (86%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (85%), Cisco CSS 11501 switch (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: CPE: cpe:/o:dell:idrac8_firmware
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT      ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   10.83 ms 192.168.1.95
+
+Nmap scan report for 192.168.1.96
+Host is up (0.014s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Dell iDRAC 8 admin httpd (time zone: CST)
+|_http-title: Did not follow redirect to https://192.168.1.96/start.html
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (94%), QEMU (93%), Bay Networks embedded (88%), Allied Telesyn embedded (86%), Linux (85%), Cisco embedded (85%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/o:linux:linux_kernel:2.6.18 cpe:/h:cisco:css_11501
+Aggressive OS guesses: Oracle Virtualbox (94%), QEMU user mode network gateway (93%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (88%), Allied Telesyn AT-9006SX/SC switch (86%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (85%), Cisco CSS 11501 switch (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: CPE: cpe:/o:dell:idrac8_firmware
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   1.21 ms 192.168.1.96
+
+Nmap scan report for 192.168.1.97
+Host is up (0.0012s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.70 ms 192.168.1.97
+
+Nmap scan report for 192.168.1.98
+Host is up (0.0013s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2.89 ms 192.168.1.98
+
+Nmap scan report for 192.168.1.99
+Host is up (0.0012s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2.86 ms 192.168.1.99
+
+Nmap scan report for 192.168.1.100
+Host is up (0.00095s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.19 ms 192.168.1.100
+
+Nmap scan report for 192.168.1.101
+Host is up (0.015s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  rtsp    Y-cam HomeMonitor HD Pro rtspd
+| http-title: Login
+|_Requested resource was http://192.168.1.101/default.asp
+|_http-server-header: Webs
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (94%), QEMU (93%), Bay Networks embedded (88%), Allied Telesyn embedded (86%), Linux (85%), Cisco embedded (85%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/o:linux:linux_kernel:2.6.18 cpe:/h:cisco:css_11501
+Aggressive OS guesses: Oracle Virtualbox (94%), QEMU user mode network gateway (93%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (88%), Allied Telesyn AT-9006SX/SC switch (86%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (85%), Cisco CSS 11501 switch (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: Device: webcam; CPE: cpe:/h:y-cam:homemonitor_hd_pro
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.81 ms 192.168.1.101
+
+Nmap scan report for 192.168.1.102
+Host is up (0.00059s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.45 ms 192.168.1.102
+
+Nmap scan report for 192.168.1.103
+Host is up (0.00047s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.19 ms 192.168.1.103
+
+Nmap scan report for 192.168.1.104
+Host is up (0.00044s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.17 ms 192.168.1.104
+
+Nmap scan report for 192.168.1.105
+Host is up (0.0028s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.17 ms 192.168.1.105
+
+Nmap scan report for 192.168.1.106
+Host is up (0.0030s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   1.02 ms 192.168.1.106
+
+Nmap scan report for 192.168.1.107
+Host is up (0.0028s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.94 ms 192.168.1.107
+
+Nmap scan report for 192.168.1.108
+Host is up (0.0028s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.87 ms 192.168.1.108
+
+Nmap scan report for 192.168.1.109
+Host is up (0.0027s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.70 ms 192.168.1.109
+
+Nmap scan report for 192.168.1.110
+Host is up (0.0027s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.58 ms 192.168.1.110
+
+Nmap scan report for 192.168.1.111
+Host is up (0.0021s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (97%), TRENDnet TV-IP100 webcam (97%), Agfa DryStar 5500 printer (97%), Linux 1.0.9 (97%), Tahoe 8216 power management system (97%), Canon imageCLASS MF212w printer (94%), Canon imageCLASS MF4500-, MF4700-, or MF4800-series printer (94%), Epson TM-T88V M244A printer (94%), Haiku R1 Alpha 4 (94%), Haiku R1 Alpha 4.1 (94%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   1.28 ms 192.168.1.111
+
+Nmap scan report for 192.168.1.112
+Host is up (0.0027s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.88 ms 192.168.1.112
+
+Nmap scan report for 192.168.1.113
+Host is up (0.0022s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (97%), TRENDnet TV-IP100 webcam (97%), Linux 1.0.9 (97%), Silicondust HDHomeRun set top box (93%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (93%), APC AP9606 Network Management Card (AOS 2.5.4 - 3.2.6) (92%), APC MasterSwitch power distribution unit (AOS 3.0.3) (92%), Bluebird SuperDOS (92%), Brother NC-3100h print server (92%), Brother DCP-540CN printer (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   1.30 ms 192.168.1.113
+
+Nmap scan report for 192.168.1.114
+Host is up (0.0026s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.64 ms 192.168.1.114
+
+Nmap scan report for 192.168.1.115
+Host is up (0.0025s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.46 ms 192.168.1.115
+
+Nmap scan report for 192.168.1.116
+Host is up (0.0025s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.89 ms 192.168.1.116
+
+Nmap scan report for 192.168.1.117
+Host is up (0.00040s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.90 ms 192.168.1.117
+
+Nmap scan report for 192.168.1.118
+Host is up (0.00034s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.46 ms 192.168.1.118
+
+Nmap scan report for 192.168.1.119
+Host is up (0.00046s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.41 ms 192.168.1.119
+
+Nmap scan report for 192.168.1.120
+Host is up (0.00042s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.39 ms 192.168.1.120
+
+Nmap scan report for 192.168.1.121
+Host is up (0.00034s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.50 ms 192.168.1.121
+
+Nmap scan report for 192.168.1.122
+Host is up (0.00034s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.46 ms 192.168.1.122
+
+Nmap scan report for 192.168.1.123
+Host is up (0.0024s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), SiliconDust HDHomeRun 3 set top box (94%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (93%), Agfa DryStar 5500 printer (93%), Leica T camera (93%), Tahoe 8216 power management system (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT        ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2004.38 ms 192.168.1.123
+
+Nmap scan report for 192.168.1.124
+Host is up (0.00087s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.41 ms 192.168.1.124
+
+Nmap scan report for 192.168.1.125
+Host is up (0.011s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.36 ms 192.168.1.125
+
+Nmap scan report for 192.168.1.126
+Host is up (0.012s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.38 ms 192.168.1.126
+
+Nmap scan report for 192.168.1.127
+Host is up (0.012s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.32 ms 192.168.1.127
+
+Nmap scan report for 192.168.1.128
+Host is up (0.012s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.38 ms 192.168.1.128
+
+Nmap scan report for 192.168.1.129
+Host is up (0.010s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.33 ms 192.168.1.129
+
+Nmap scan report for 192.168.1.130
+Host is up (0.010s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.66 ms 192.168.1.130
+
+Nmap scan report for 192.168.1.131
+Host is up (0.010s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.60 ms 192.168.1.131
+
+Nmap scan report for 192.168.1.132
+Host is up (0.010s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   1.22 ms 192.168.1.132
+
+Nmap scan report for 192.168.1.133
+Host is up (0.0028s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (97%), TRENDnet TV-IP100 webcam (97%), Agfa DryStar 5500 printer (97%), Linux 1.0.9 (97%), Tahoe 8216 power management system (97%), Canon imageCLASS MF212w printer (94%), Canon imageCLASS MF4500-, MF4700-, or MF4800-series printer (94%), Epson TM-T88V M244A printer (94%), Haiku R1 Alpha 4 (94%), Haiku R1 Alpha 4.1 (94%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2.21 ms 192.168.1.133
+
+Nmap scan report for 192.168.1.134
+Host is up (0.0054s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.58 ms 192.168.1.134
+
+Nmap scan report for 192.168.1.135
+Host is up (0.0053s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.52 ms 192.168.1.135
+
+Nmap scan report for 192.168.1.136
+Host is up (0.0052s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.65 ms 192.168.1.136
+
+Nmap scan report for 192.168.1.137
+Host is up (0.0018s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.58 ms 192.168.1.137
+
+Nmap scan report for 192.168.1.138
+Host is up (0.0065s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.69 ms 192.168.1.138
+
+Nmap scan report for 192.168.1.139
+Host is up (0.0052s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.65 ms 192.168.1.139
+
+Nmap scan report for 192.168.1.140
+Host is up (0.0052s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.60 ms 192.168.1.140
+
+Nmap scan report for 192.168.1.141
+Host is up (0.0050s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.61 ms 192.168.1.141
+
+Nmap scan report for 192.168.1.142
+Host is up (0.0050s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.55 ms 192.168.1.142
+
+Nmap scan report for 192.168.1.143
+Host is up (0.0052s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.53 ms 192.168.1.143
+
+Nmap scan report for 192.168.1.144
+Host is up (0.00051s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.54 ms 192.168.1.144
+
+Nmap scan report for 192.168.1.145
+Host is up (0.00046s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.44 ms 192.168.1.145
+
+Nmap scan report for 192.168.1.146
+Host is up (0.00034s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.39 ms 192.168.1.146
+
+Nmap scan report for 192.168.1.147
+Host is up (0.00040s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.72 ms 192.168.1.147
+
+Nmap scan report for 192.168.1.148
+Host is up (0.00029s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.64 ms 192.168.1.148
+
+Nmap scan report for 192.168.1.149
+Host is up (0.00026s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.59 ms 192.168.1.149
+
+Nmap scan report for 192.168.1.150
+Host is up (0.00028s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.64 ms 192.168.1.150
+
+Nmap scan report for 192.168.1.151
+Host is up (0.012s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.56 ms 192.168.1.151
+
+Nmap scan report for 192.168.1.152
+Host is up (0.00064s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.51 ms 192.168.1.152
+
+Nmap scan report for 192.168.1.153
+Host is up (0.0067s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.65 ms 192.168.1.153
+
+Nmap scan report for 192.168.1.154
+Host is up (0.0068s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.47 ms 192.168.1.154
+
+Nmap scan report for 192.168.1.155
+Host is up (0.0068s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.42 ms 192.168.1.155
+
+Nmap scan report for 192.168.1.156
+Host is up (0.0068s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.60 ms 192.168.1.156
+
+Nmap scan report for 192.168.1.157
+Host is up (0.0068s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.50 ms 192.168.1.157
+
+Nmap scan report for 192.168.1.158
+Host is up (0.0068s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.45 ms 192.168.1.158
+
+Nmap scan report for 192.168.1.159
+Host is up (0.0017s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (97%), TRENDnet TV-IP100 webcam (97%), Linux 1.0.9 (97%), Silicondust HDHomeRun set top box (93%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (93%), APC AP9606 Network Management Card (AOS 2.5.4 - 3.2.6) (92%), APC MasterSwitch power distribution unit (AOS 3.0.3) (92%), Bluebird SuperDOS (92%), Brother NC-3100h print server (92%), Brother DCP-540CN printer (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2.11 ms 192.168.1.159
+
+Nmap scan report for 192.168.1.160
+Host is up (0.0014s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), SiliconDust HDHomeRun 3 set top box (94%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (93%), Agfa DryStar 5500 printer (93%), Leica T camera (93%), Tahoe 8216 power management system (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT        ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2009.31 ms 192.168.1.160
+
+Nmap scan report for 192.168.1.161
+Host is up (0.0099s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), SiliconDust HDHomeRun 3 set top box (94%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (93%), Agfa DryStar 5500 printer (93%), Leica T camera (93%), Tahoe 8216 power management system (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT        ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2008.05 ms 192.168.1.161
+
+Nmap scan report for 192.168.1.162
+Host is up (0.0098s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), SiliconDust HDHomeRun 3 set top box (94%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (93%), Agfa DryStar 5500 printer (93%), Leica T camera (93%), Tahoe 8216 power management system (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT        ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2009.16 ms 192.168.1.162
+
+Nmap scan report for 192.168.1.163
+Host is up (0.0023s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), SiliconDust HDHomeRun 3 set top box (94%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (93%), Agfa DryStar 5500 printer (93%), Leica T camera (93%), Tahoe 8216 power management system (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT        ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2005.51 ms 192.168.1.163
+
+Nmap scan report for 192.168.1.164
+Host is up (0.0022s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), SiliconDust HDHomeRun 3 set top box (94%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (93%), Agfa DryStar 5500 printer (93%), Leica T camera (93%), Tahoe 8216 power management system (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT        ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2006.75 ms 192.168.1.164
+
+Nmap scan report for 192.168.1.165
+Host is up (0.0068s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.71 ms 192.168.1.165
+
+Nmap scan report for 192.168.1.166
+Host is up (0.0067s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.23 ms 192.168.1.166
+
+Nmap scan report for 192.168.1.167
+Host is up (0.0010s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.67 ms 192.168.1.167
+
+Nmap scan report for 192.168.1.168
+Host is up (0.00098s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.50 ms 192.168.1.168
+
+Nmap scan report for 192.168.1.169
+Host is up (0.0067s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.42 ms 192.168.1.169
+
+Nmap scan report for 192.168.1.170
+Host is up (0.0065s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.65 ms 192.168.1.170
+
+Nmap scan report for 192.168.1.171
+Host is up (0.0067s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.69 ms 192.168.1.171
+
+Nmap scan report for 192.168.1.172
+Host is up (0.0067s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.61 ms 192.168.1.172
+
+Nmap scan report for 192.168.1.173
+Host is up (0.0024s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.55 ms 192.168.1.173
+
+Nmap scan report for 192.168.1.174
+Host is up (0.0024s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.50 ms 192.168.1.174
+
+Nmap scan report for 192.168.1.175
+Host is up (0.0023s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT        ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2006.36 ms 192.168.1.175
+
+Nmap scan report for 192.168.1.176
+Host is up (0.0069s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   1.37 ms 192.168.1.176
+
+Nmap scan report for 192.168.1.177
+Host is up (0.0027s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   1.34 ms 192.168.1.177
+
+Nmap scan report for 192.168.1.178
+Host is up (0.0026s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   1.28 ms 192.168.1.178
+
+Nmap scan report for 192.168.1.179
+Host is up (0.0024s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.72 ms 192.168.1.179
+
+Nmap scan report for 192.168.1.180
+Host is up (0.0023s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.66 ms 192.168.1.180
+
+Nmap scan report for 192.168.1.181
+Host is up (0.0023s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.61 ms 192.168.1.181
+
+Nmap scan report for 192.168.1.182
+Host is up (0.0021s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.65 ms 192.168.1.182
+
+Nmap scan report for 192.168.1.183
+Host is up (0.0067s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.57 ms 192.168.1.183
+
+Nmap scan report for 192.168.1.184
+Host is up (0.0022s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.50 ms 192.168.1.184
+
+Nmap scan report for 192.168.1.185
+Host is up (0.0021s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.59 ms 192.168.1.185
+
+Nmap scan report for 192.168.1.186
+Host is up (0.0020s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.51 ms 192.168.1.186
+
+Nmap scan report for 192.168.1.187
+Host is up (0.0020s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.46 ms 192.168.1.187
+
+Nmap scan report for 192.168.1.188
+Host is up (0.0017s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.65 ms 192.168.1.188
+
+Nmap scan report for 192.168.1.189
+Host is up (0.0016s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.53 ms 192.168.1.189
+
+Nmap scan report for 192.168.1.190
+Host is up (0.0013s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.44 ms 192.168.1.190
+
+Nmap scan report for 192.168.1.191
+Host is up (0.0013s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.67 ms 192.168.1.191
+
+Nmap scan report for 192.168.1.192
+Host is up (0.0067s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.58 ms 192.168.1.192
+
+Nmap scan report for 192.168.1.193
+Host is up (0.12s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT        ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2506.04 ms 192.168.1.193
+
+Nmap scan report for 192.168.1.194
+Host is up (0.011s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.63 ms 192.168.1.194
+
+Nmap scan report for coffeeaddicts.thm (192.168.1.195)
+Host is up (0.00047s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Adtran NetVanta 3200 or Total Access 908 ADSL router (95%), Brother HL-2070N printer (94%), Sony Bravia X4500-series TV (94%), SMC 7904WBRA-N wireless ADSL router (93%), D-Link DFL-700 firewall (93%), FireBrick FB2700 firewall (92%), Microsoft Windows Server 2003 SP2 (91%), Microsoft Windows XP SP2 (91%), Microsoft Windows XP SP2 (firewall disabled) (91%), Apple Mac OS X 10.6.2 (Snow Leopard) (Darwin 10.2.0) (91%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.58 ms coffeeaddicts.thm (192.168.1.195)
+
+Nmap scan report for 192.168.1.196
+Host is up (0.0067s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.60 ms 192.168.1.196
+
+Nmap scan report for 192.168.1.197
+Host is up (0.00068s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.53 ms 192.168.1.197
+
+Nmap scan report for 192.168.1.198
+Host is up (0.00046s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.74 ms 192.168.1.198
+
+Nmap scan report for 192.168.1.199
+Host is up (0.0044s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.66 ms 192.168.1.199
+
+Nmap scan report for 192.168.1.200
+Host is up (0.0033s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.51 ms 192.168.1.200
+
+Nmap scan report for 192.168.1.201
+Host is up (0.014s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Microsoft IIS httpd 8.5
+|_http-server-header: Microsoft-IIS/8.5
+|_http-title: IIS Windows Server
+| http-methods: 
+|_  Potentially risky methods: TRACE
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (95%), QEMU (89%), Bay Networks embedded (87%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450
+Aggressive OS guesses: Oracle Virtualbox (95%), QEMU user mode network gateway (89%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2.38 ms 192.168.1.201
+
+Nmap scan report for 192.168.1.202
+Host is up (0.0016s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (97%), TRENDnet TV-IP100 webcam (97%), Agfa DryStar 5500 printer (97%), Linux 1.0.9 (97%), Tahoe 8216 power management system (97%), Canon imageCLASS MF212w printer (94%), Canon imageCLASS MF4500-, MF4700-, or MF4800-series printer (94%), Epson TM-T88V M244A printer (94%), Haiku R1 Alpha 4 (94%), Haiku R1 Alpha 4.1 (94%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   1.43 ms 192.168.1.202
+
+Nmap scan report for 192.168.1.203
+Host is up (0.015s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Microsoft IIS httpd 8.5
+|_http-server-header: Microsoft-IIS/8.5
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-title: IIS Windows Server
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (95%), QEMU (89%), Bay Networks embedded (87%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450
+Aggressive OS guesses: Oracle Virtualbox (95%), QEMU user mode network gateway (89%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   1.33 ms 192.168.1.203
+
+Nmap scan report for 192.168.1.204
+Host is up (0.0038s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), SiliconDust HDHomeRun 3 set top box (94%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (93%), Agfa DryStar 5500 printer (93%), Leica T camera (93%), Tahoe 8216 power management system (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT        ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2011.96 ms 192.168.1.204
+
+Nmap scan report for 192.168.1.205
+Host is up (0.0034s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.69 ms 192.168.1.205
+
+Nmap scan report for 192.168.1.206
+Host is up (0.0035s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT        ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2015.21 ms 192.168.1.206
+
+Nmap scan report for 192.168.1.207
+Host is up (0.0033s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT        ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2008.42 ms 192.168.1.207
+
+Nmap scan report for 192.168.1.208
+Host is up (0.0030s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT        ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2005.37 ms 192.168.1.208
+
+Nmap scan report for 192.168.1.209
+Host is up (0.015s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    HP Storage Management Utility
+|_http-title: Site doesn't have a title (text/html; charset="utf-8").
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (94%), QEMU (93%), Bay Networks embedded (88%), Allied Telesyn embedded (86%), Linux (85%), Cisco embedded (85%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/o:linux:linux_kernel:2.6.18 cpe:/h:cisco:css_11501
+Aggressive OS guesses: Oracle Virtualbox (94%), QEMU user mode network gateway (93%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (88%), Allied Telesyn AT-9006SX/SC switch (86%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (85%), Cisco CSS 11501 switch (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: Device: storage-misc
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   3.06 ms 192.168.1.209
+
+Nmap scan report for 192.168.1.210
+Host is up (0.014s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    HP Storage Management Utility
+|_http-title: Site doesn't have a title (text/html; charset="utf-8").
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (94%), QEMU (93%), Bay Networks embedded (88%), Allied Telesyn embedded (86%), Linux (85%), Cisco embedded (85%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/o:linux:linux_kernel:2.6.18 cpe:/h:cisco:css_11501
+Aggressive OS guesses: Oracle Virtualbox (94%), QEMU user mode network gateway (93%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (88%), Allied Telesyn AT-9006SX/SC switch (86%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (85%), Cisco CSS 11501 switch (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: Device: storage-misc
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   3.55 ms 192.168.1.210
+
+Nmap scan report for 192.168.1.211
+Host is up (0.0033s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.60 ms 192.168.1.211
+
+Nmap scan report for 192.168.1.212
+Host is up (0.0031s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.48 ms 192.168.1.212
+
+Nmap scan report for 192.168.1.213
+Host is up (0.0030s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.41 ms 192.168.1.213
+
+Nmap scan report for 192.168.1.214
+Host is up (0.0030s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.61 ms 192.168.1.214
+
+Nmap scan report for 192.168.1.215
+Host is up (0.0032s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.50 ms 192.168.1.215
+
+Nmap scan report for 192.168.1.216
+Host is up (0.0031s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.42 ms 192.168.1.216
+
+Nmap scan report for 192.168.1.217
+Host is up (0.0018s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT        ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2014.08 ms 192.168.1.217
+
+Nmap scan report for 192.168.1.218
+Host is up (0.0017s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT        ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2014.00 ms 192.168.1.218
+
+Nmap scan report for 192.168.1.219
+Host is up (0.0040s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT        ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2012.16 ms 192.168.1.219
+
+Nmap scan report for 192.168.1.220
+Host is up (0.0015s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT        ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2008.19 ms 192.168.1.220
+
+Nmap scan report for 192.168.1.221
+Host is up (0.014s latency).
+
+PORT   STATE SERVICE    VERSION
+80/tcp open  tcpwrapped
+|_http-server-header: EPSON_Linux UPnP/1.0 Epson UPnP SDK/1.0
+|_http-title: Site doesn't have a title (text/html).
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (94%), QEMU (93%), Bay Networks embedded (88%), Allied Telesyn embedded (86%), Linux (85%), Cisco embedded (85%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/o:linux:linux_kernel:2.6.18 cpe:/h:cisco:css_11501
+Aggressive OS guesses: Oracle Virtualbox (94%), QEMU user mode network gateway (93%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (88%), Allied Telesyn AT-9006SX/SC switch (86%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (85%), Cisco CSS 11501 switch (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 443/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2.40 ms 192.168.1.221
+
+Nmap scan report for 192.168.1.222
+Host is up (0.014s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    HP Officejet Pro X451dw Printer printer http config (Serial CN55FKK0JP)
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: HP HTTP Server; HP HP Officejet Pro X451dw Printer - CN463A; Serial Number: CN55FKK0JP; Built:Thu May 28, 2020 04:54:22AM {BWP1CN2022AR}
+| http-methods: 
+|_  Potentially risky methods: PUT DELETE
+|_http-title: Site doesn't have a title (text/html).
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (94%), QEMU (92%), Bay Networks embedded (87%), Allied Telesyn embedded (86%), Linux 1.0.X (86%), Cisco embedded (85%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/o:linux:linux_kernel:2.6.18 cpe:/h:cisco:css_11501 cpe:/o:linux:linux_kernel:1.0.9
+Aggressive OS guesses: Oracle Virtualbox (94%), QEMU user mode network gateway (92%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (87%), Allied Telesyn AT-9006SX/SC switch (86%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (86%), Cisco CSS 11501 switch (85%), Linux 1.0.9 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: Device: printer; CPE: cpe:/h:hp:officejet_pro_x451dw_printer
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   4.06 ms 192.168.1.222
+
+Nmap scan report for 192.168.1.223
+Host is up (0.018s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   103.69 ms 192.168.1.223
+
+Nmap scan report for 192.168.1.224
+Host is up (0.020s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   142.49 ms 192.168.1.224
+
+Nmap scan report for 192.168.1.225
+Host is up (0.031s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   229.93 ms 192.168.1.225
+
+Nmap scan report for 192.168.1.226
+Host is up (0.026s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   189.17 ms 192.168.1.226
+
+Nmap scan report for 192.168.1.227
+Host is up (0.042s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   323.26 ms 192.168.1.227
+
+Nmap scan report for 192.168.1.228
+Host is up (0.069s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   534.12 ms 192.168.1.228
+
+Nmap scan report for 192.168.1.229
+Host is up (0.062s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   480.56 ms 192.168.1.229
+
+Nmap scan report for 192.168.1.230
+Host is up (0.015s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.10 ((Raspbian))
+|_http-server-header: Apache/2.4.10 (Raspbian)
+|_http-title: Pi Displays Controls
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (95%), QEMU (90%), Bay Networks embedded (87%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450
+Aggressive OS guesses: Oracle Virtualbox (95%), QEMU user mode network gateway (90%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   3.09 ms 192.168.1.230
+
+Nmap scan report for 192.168.1.231
+Host is up (0.060s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   464.23 ms 192.168.1.231
+
+Nmap scan report for 192.168.1.232
+Host is up (0.062s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   477.84 ms 192.168.1.232
+
+Nmap scan report for 192.168.1.233
+Host is up (0.079s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   611.28 ms 192.168.1.233
+
+Nmap scan report for 192.168.1.234
+Host is up (0.082s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   637.45 ms 192.168.1.234
+
+Nmap scan report for 192.168.1.235
+Host is up (0.089s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   677.90 ms 192.168.1.235
+
+Nmap scan report for 192.168.1.236
+Host is up (0.082s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   643.51 ms 192.168.1.236
+
+Nmap scan report for 192.168.1.237
+Host is up (0.083s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   641.50 ms 192.168.1.237
+
+Nmap scan report for 192.168.1.238
+Host is up (0.091s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   701.07 ms 192.168.1.238
+
+Nmap scan report for 192.168.1.239
+Host is up (0.11s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   895.65 ms 192.168.1.239
+
+Nmap scan report for 192.168.1.240
+Host is up (0.13s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT        ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   1010.15 ms 192.168.1.240
+
+Nmap scan report for 192.168.1.241
+Host is up (0.13s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   994.43 ms 192.168.1.241
+
+Nmap scan report for 192.168.1.242
+Host is up (0.15s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   866.06 ms 192.168.1.242
+
+Nmap scan report for 192.168.1.243
+Host is up (0.14s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   832.09 ms 192.168.1.243
+
+Nmap scan report for 192.168.1.244
+Host is up (0.17s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   976.38 ms 192.168.1.244
+
+Nmap scan report for 192.168.1.245
+Host is up (0.17s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   846.79 ms 192.168.1.245
+
+Nmap scan report for 192.168.1.246
+Host is up (0.19s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   987.71 ms 192.168.1.246
+
+Nmap scan report for 192.168.1.247
+Host is up (0.17s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   838.06 ms 192.168.1.247
+
+Nmap scan report for 192.168.1.248
+Host is up (0.16s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   760.11 ms 192.168.1.248
+
+Nmap scan report for 192.168.1.249
+Host is up (0.0012s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.48 ms 192.168.1.249
+
+Nmap scan report for 192.168.1.250
+Host is up (0.20s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   893.11 ms 192.168.1.250
+
+Nmap scan report for 192.168.1.251
+Host is up (0.22s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   983.62 ms 192.168.1.251
+
+Nmap scan report for 192.168.1.252
+Host is up (0.19s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   993.23 ms 192.168.1.252
+
+Nmap scan report for 192.168.1.253
+Host is up (0.24s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), TRENDnet TV-IP100 webcam (98%), Linux 1.0.9 (98%), SiliconDust HDHomeRun 3 set top box (95%), D-Link DPR-1260 print server; or DGL-4300, DGL-4500, DIR-615, DIR-625, DIR-628, DIR-655, or DIR-855 WAP (95%), Adtran Total Access 624 router (94%), AXIS 2100 Network Camera (94%), Agfa DryStar 5500 printer (93%), Brother HL-2700CN printer (93%), Brother MFC-7820N printer (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   996.83 ms 192.168.1.253
+
+Nmap scan report for 192.168.1.254
+Host is up (0.018s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http
+| fingerprint-strings: 
+|   DNSStatusRequestTCP, DNSVersionBindReqTCP, GenericLines, HTTPOptions, Help, RPCCheck, RTSPRequest, SSLSessionReq, TLSSessionReq, TerminalServerCookie, X11Probe: 
+|     HTTP/1.1 405 
+|     Content-Length: 0
+|   FourOhFourRequest: 
+|     HTTP/1.1 404 
+|     Content-Length: 0
+|   GetRequest: 
+|     HTTP/1.1 200 OK
+|     Set-Cookie: SessionID_R3=r/S9X5mw54N9Pfy5mJ+HJK4oSTHiBvbwH9HSmYOQuOT+SkXP8M+Bav2vyvqmRf9rdK0RYz4jkXNksMFYclhERBDuUyzSSgG84r5fdOKo8mRt/+5ApIqyA8W6wJ0Du5a; path=/; HttpOnly;
+|     Cache-Control: no-cache
+|     Date: Thu, 17 Feb 2022 09:31:52 GMT
+|     Connection: Keep-Alive
+|     Content-Type: text/html; charset=utf-8
+|     Content-Length: 7105
+|     <!DOCTYPE html>
+|     <!--[if lt IE 7 ]><html lang="en" class="ie6"><![endif]-->
+|     <!--[if IE 7 ]><html lang="en" class="ie7"><![endif]-->
+|     <!--[if IE 8 ]><html lang="en" class="ie8"><![endif]-->
+|     <!--[if IE 9 ]><html lang="en" class="ie9"><![endif]-->
+|     <!--[if (gt IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+|     <head>
+|     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+|     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+|     <meta name="description" content="">
+|     <meta name="author" content="">
+|_    <meta name="csrf_param" co
+|_http-title:  Super Router
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.92%I=7%D=2/17%Time=620E1607%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,1D15,"HTTP/1\.1\x20200\x20OK\r\nSet-Cookie:\x20SessionID_R3=r/S9
+SF:X5mw54N9Pfy5mJ\+HJK4oSTHiBvbwH9HSmYOQuOT\+SkXP8M\+Bav2vyvqmRf9rdK0RYz4j
+SF:kXNksMFYclhERBDuUyzSSgG84r5fdOKo8mRt/\+5ApIqyA8W6wJ0Du5a;\x20path=/;\x2
+SF:0HttpOnly;\r\nCache-Control:\x20no-cache\r\nDate:\x20Thu,\x2017\x20Feb\
+SF:x202022\x2009:31:52\x20GMT\r\nConnection:\x20Keep-Alive\r\nContent-Type
+SF::\x20text/html;\x20charset=utf-8\r\nContent-Length:\x207105\r\n\r\n<!DO
+SF:CTYPE\x20html>\r\n<!--\[if\x20lt\x20IE\x207\x20\]><html\x20lang=\"en\"\
+SF:x20class=\"ie6\"><!\[endif\]-->\r\n<!--\[if\x20IE\x207\x20\]><html\x20l
+SF:ang=\"en\"\x20class=\"ie7\"><!\[endif\]-->\r\n<!--\[if\x20IE\x208\x20\]
+SF:><html\x20lang=\"en\"\x20class=\"ie8\"><!\[endif\]-->\r\n<!--\[if\x20IE
+SF:\x209\x20\]><html\x20lang=\"en\"\x20class=\"ie9\"><!\[endif\]-->\r\n<!-
+SF:-\[if\x20\(gt\x20IE\x209\)\|!\(IE\)\]><!--><html\x20lang=\"en\"><!--<!\
+SF:[endif\]-->\r\n<head>\r\n<meta\x20http-equiv=\"Content-Type\"\x20conten
+SF:t=\"text/html;\x20charset=utf-8\"\x20/>\r\n<meta\x20name=\"viewport\"\x
+SF:20content=\"width=device-width,\x20initial-scale=1\.0\">\r\n<meta\x20na
+SF:me=\"description\"\x20content=\"\">\r\n<meta\x20name=\"author\"\x20cont
+SF:ent=\"\">\r\n<meta\x20name=\"csrf_param\"\x20co")%r(HTTPOptions,24,"HTT
+SF:P/1\.1\x20405\x20\r\nContent-Length:\x200\r\n\r\n")%r(RTSPRequest,24,"H
+SF:TTP/1\.1\x20405\x20\r\nContent-Length:\x200\r\n\r\n")%r(X11Probe,24,"HT
+SF:TP/1\.1\x20405\x20\r\nContent-Length:\x200\r\n\r\n")%r(FourOhFourReques
+SF:t,24,"HTTP/1\.1\x20404\x20\r\nContent-Length:\x200\r\n\r\n")%r(GenericL
+SF:ines,24,"HTTP/1\.1\x20405\x20\r\nContent-Length:\x200\r\n\r\n")%r(RPCCh
+SF:eck,24,"HTTP/1\.1\x20405\x20\r\nContent-Length:\x200\r\n\r\n")%r(DNSVer
+SF:sionBindReqTCP,24,"HTTP/1\.1\x20405\x20\r\nContent-Length:\x200\r\n\r\n
+SF:")%r(DNSStatusRequestTCP,24,"HTTP/1\.1\x20405\x20\r\nContent-Length:\x2
+SF:00\r\n\r\n")%r(Help,24,"HTTP/1\.1\x20405\x20\r\nContent-Length:\x200\r\
+SF:n\r\n")%r(SSLSessionReq,24,"HTTP/1\.1\x20405\x20\r\nContent-Length:\x20
+SF:0\r\n\r\n")%r(TerminalServerCookie,24,"HTTP/1\.1\x20405\x20\r\nContent-
+SF:Length:\x200\r\n\r\n")%r(TLSSessionReq,24,"HTTP/1\.1\x20405\x20\r\nCont
+SF:ent-Length:\x200\r\n\r\n");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|general purpose|switch
+Running (JUST GUESSING): Oracle Virtualbox (95%), QEMU (90%), Bay Networks embedded (86%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:qemu:qemu cpe:/h:baynetworks:baystack_450
+Aggressive OS guesses: Oracle Virtualbox (95%), QEMU user mode network gateway (90%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (86%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   2.42 ms 192.168.1.254
+
+Nmap scan report for 192.168.1.255
+Host is up (0.0012s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.1.0
+2   0.63 ms 192.168.1.255
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 256 IP addresses (256 hosts up) scanned in 343.99 seconds
+                                                        
+┌──(kali㉿kali)-[~/Desktop/DB_scans]
+└─$ 
